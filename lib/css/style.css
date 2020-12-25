@@ -16,6 +16,42 @@
   border: 1px solid #a0cc68;
   height: calc(1.8rem + 2px); }
 
+.owl-carousel.off {
+  display: block; }
+
+.owl-slider {
+  position: relative; }
+  .owl-slider .owl-theme .custom-nav {
+    position: absolute;
+    top: 35%;
+    bottom: 35%;
+    left: 0;
+    right: 0; }
+    .owl-slider .owl-theme .custom-nav .owl-prev, .owl-slider .owl-theme .custom-nav .owl-next {
+      position: absolute;
+      height: 100px;
+      color: inherit;
+      background: none;
+      border: none;
+      z-index: 100; }
+      .owl-slider .owl-theme .custom-nav .owl-prev i, .owl-slider .owl-theme .custom-nav .owl-next i {
+        font-size: 2.5rem;
+        color: #cecece; }
+    .owl-slider .owl-theme .custom-nav .owl-prev {
+      left: 0;
+      padding-right: 0.7rem; }
+    .owl-slider .owl-theme .custom-nav .owl-next {
+      right: 0;
+      padding-left: 0.7rem; }
+  .owl-slider .owl-theme .owl-nav [class*=owl-]:hover, .owl-slider .owl-theme .owl-nav [class*=owl-] {
+    background: white;
+    color: #949494;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center; }
+
 /* Media */
 
 /*# sourceMappingURL=style.css.map */
