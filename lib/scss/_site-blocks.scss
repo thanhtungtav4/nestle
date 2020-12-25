@@ -1,0 +1,7 @@
+.navbar-nav{
+  .nav-item {
+    a{
+      @include color-blue;
+    }
+  }
+}
