@@ -4,4 +4,28 @@
       @include color-blue;
     }
   }
+  .nav-item:nth-child(2){
+    a{
+      @include color-pink;
+    }
+  }
+  .nav-item:nth-child(3){
+    a{
+      @include color-green;
+    }
+  }
+  .nav-item:nth-child(4){
+    a{
+      @include color-light-blue;
+    }
+  }
+  .nav-item:nth-child(5){
+    a{
+      @include color-yellow;
+    }
+  }
+}
+//nav bar custome by tungnt
+.search-type-nt{
+  border: 1px solid ;
 }

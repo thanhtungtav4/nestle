@@ -3,6 +3,17 @@
 /* Blocks */
 .navbar-nav .nav-item a {
   color: #193393; }
+.navbar-nav .nav-item:nth-child(2) a {
+  color: #ed559b; }
+.navbar-nav .nav-item:nth-child(3) a {
+  color: #0baf4d; }
+.navbar-nav .nav-item:nth-child(4) a {
+  color: #2b6bff; }
+.navbar-nav .nav-item:nth-child(5) a {
+  color: #f9bb59; }
+
+.search-type-nt {
+  border: 1px solid; }
 
 /* Media */
 

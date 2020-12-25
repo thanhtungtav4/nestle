@@ -1,15 +1,25 @@
+$color-blue:#193393;
+$color-pink:#ed559b;
+$color-green:#0baf4d;
+$color-light-blue:#2b6bff;
+$color-yellow:#f9bb59;
+$color-light-green:#f9bb59;
+//gen hex color
 @mixin color-blue {
-  color: #193393;
+  color: $color-blue;
 }
 @mixin color-pink {
-  color: #ed559b;
+  color: $color-pink;
 }
 @mixin color-green {
-  color: #0baf4d;
+  color: $color-green;
 }
 @mixin color-light-blue {
-  color: #2b6bff;
+  color: $color-light-blue;
 }
 @mixin color-yellow {
-  color: #f9bb59;
+  color: $color-yellow;
+}
+@mixin color-light-green {
+  color: $color-light-green;
 }
