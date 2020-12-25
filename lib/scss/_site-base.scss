@@ -3,7 +3,7 @@ $color-pink:#ed559b;
 $color-green:#0baf4d;
 $color-light-blue:#2b6bff;
 $color-yellow:#f9bb59;
-$color-light-green:#f9bb59;
+$color-light-green:#a0cc68;
 //gen hex color
 @mixin color-blue {
   color: $color-blue;
@@ -22,4 +22,7 @@ $color-light-green:#f9bb59;
 }
 @mixin color-light-green {
   color: $color-light-green;
+}
+@mixin customer-hight-seach{
+  height: calc(1.8rem + 2px);
 }
