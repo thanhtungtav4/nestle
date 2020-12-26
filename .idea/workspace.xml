@@ -4,6 +4,10 @@
     <list default="true" id="15c05553-5dcb-4a98-bef3-bb08713bb628" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scss/_site-base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/_site-base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/_site-blocks.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +48,7 @@
       <workItem from="1608798813489" duration="6261000" />
       <workItem from="1608861273585" duration="21668000" />
       <workItem from="1608889870147" duration="3847000" />
-      <workItem from="1608947821222" duration="5407000" />
+      <workItem from="1608947821222" duration="15192000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1608798913951</created>
@@ -151,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608954906370</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="init">
+      <created>1608957837841</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608957837841</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,10 +173,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1608954905695">
+    <state x="2482" y="306" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608959657164">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1608954905695" />
+    <state x="2482" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1608959657164" />
+    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1608957837055">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1608957837055" />
     <state x="2540" y="259" key="FileChooserDialogImpl" timestamp="1608892053987">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>

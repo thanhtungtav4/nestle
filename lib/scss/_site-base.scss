@@ -89,7 +89,7 @@
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Light';
   src: url('../fonts/Roboto-Light.woff2') format('woff2'),
   url('../fonts/Roboto-Light.woff') format('woff');
   font-weight: 300;
@@ -98,7 +98,7 @@
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Italic';
   src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
   url('../fonts/Roboto-Italic.woff') format('woff');
   font-weight: normal;
@@ -107,7 +107,7 @@
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-LightItalic';
   src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'),
   url('../fonts/Roboto-LightItalic.woff') format('woff');
   font-weight: 300;
@@ -116,7 +116,7 @@
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-MediumItalic';
   src: url('../fonts/Roboto-MediumItalic.woff2') format('woff2'),
   url('../fonts/Roboto-MediumItalic.woff') format('woff');
   font-weight: 500;
@@ -125,7 +125,7 @@
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Medium';
   src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
   url('../fonts/Roboto-Medium.woff') format('woff');
   font-weight: 500;
@@ -134,7 +134,7 @@
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-ThinItalic';
   src: url('../fonts/Roboto-ThinItalic.woff2') format('woff2'),
   url('../fonts/Roboto-ThinItalic.woff') format('woff');
   font-weight: 100;
@@ -167,10 +167,6 @@
   font-style: normal;
   font-display: swap;
 }
-
-
-
-
 $color-blue:#193393;
 $color-pink:#ed559b;
 $color-green:#0baf4d;
@@ -179,6 +175,7 @@ $color-yellow:#f9bb59;
 $color-light-green:#a0cc68;
 $color-gray:#949494;
 $color-violet:#9c6fad;
+$color-light-cream:#f0f0f0;
 //gen hex color
 @mixin color-blue {
   color: $color-blue;
@@ -200,4 +197,8 @@ $color-violet:#9c6fad;
 }
 @mixin customer-hight-seach{
   height: calc(1.8rem + 2px);
+}
+@mixin ArialUnicodeMs{
+  font-family: Roboto;
+  font-weight: 500;
 }

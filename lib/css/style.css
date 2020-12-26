@@ -60,37 +60,37 @@
   font-style: normal;
   font-display: swap; }
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Light';
   src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap; }
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Italic';
   src: url("../fonts/Roboto-Italic.woff2") format("woff2"), url("../fonts/Roboto-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap; }
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-LightItalic';
   src: url("../fonts/Roboto-LightItalic.woff2") format("woff2"), url("../fonts/Roboto-LightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap; }
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-MediumItalic';
   src: url("../fonts/Roboto-MediumItalic.woff2") format("woff2"), url("../fonts/Roboto-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap; }
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Medium';
   src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-ThinItalic';
   src: url("../fonts/Roboto-ThinItalic.woff2") format("woff2"), url("../fonts/Roboto-ThinItalic.woff") format("woff");
   font-weight: 100;
   font-style: italic;
@@ -169,6 +169,41 @@
 .border-left-right-logo {
   border-left: 2px solid #9c6fad;
   border-right: 2px solid #9c6fad; }
+
+.slider-base-box .description-owl {
+  font-family: Roboto;
+  font-weight: 500; }
+.slider-base-box .btn-view-more {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  font-weight: 700;
+  color: white;
+  font-family: Roboto;
+  font-size: 1.2rem; }
+
+.slider-pink {
+  background-color: #f0f0f0; }
+  .slider-pink .title-owl {
+    color: #e83e8c; }
+  .slider-pink .btn-view-more {
+    background-color: #e83e8c; }
+
+.section-nutri-health .text-nutri-title {
+  font-size: 1.2rem;
+  font-family: Roboto;
+  font-weight: 500; }
+.section-nutri-health .text-nutri-description {
+  font-family: Roboto;
+  font-weight: 500;
+  color: white; }
+.section-nutri-health .col-md-3:nth-child(1) .text-nutri-description {
+  background: #193393; }
+.section-nutri-health .col-md-3:nth-child(2) .text-nutri-description {
+  background: #2b6bff; }
+.section-nutri-health .col-md-3:nth-child(3) .text-nutri-description {
+  background: #0baf4d; }
+.section-nutri-health .col-md-3:nth-child(4) .text-nutri-description {
+  background: #f9bb59; }
 
 /* Media */
 

@@ -42,7 +42,6 @@
       bottom: 40%;
       left: 0;
       right: 0;
-
       .owl-prev, .owl-next {
         position: absolute;
         height: 100px;
@@ -81,4 +80,60 @@
 .border-left-right-logo{
   border-left: 2px solid $color-violet;
   border-right: 2px solid $color-violet;
+}
+.slider-base-box{
+   .description-owl{
+      font-family: Roboto;
+      font-weight: 500;
+   }
+  .btn-view-more{
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-weight: 700;
+    color: white;
+    font-family: Roboto;
+    font-size: 1.2rem;
+
+  }
+}
+//gen box sider
+.slider-pink{
+   background-color: $color-light-cream;
+  .title-owl{
+    color: $pink;
+  }
+  .btn-view-more{
+    background-color: $pink;
+  }
+}
+
+.section-nutri-health{
+  .text-nutri-title{
+    font-size: 1.2rem;
+    @include ArialUnicodeMs;
+  }
+  .text-nutri-description{
+    @include ArialUnicodeMs;
+    color: white;
+  }
+  .col-md-3:nth-child(1){
+    .text-nutri-description{
+      background: $color-blue;
+    }
+  }
+  .col-md-3:nth-child(2){
+    .text-nutri-description{
+      background: $color-light-blue;
+    }
+  }
+  .col-md-3:nth-child(3){
+    .text-nutri-description{
+      background: $color-green;
+    }
+  }
+  .col-md-3:nth-child(4){
+    .text-nutri-description{
+      background: $color-yellow;
+    }
+  }
 }
