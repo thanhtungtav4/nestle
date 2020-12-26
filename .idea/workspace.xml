@@ -4,8 +4,6 @@
     <list default="true" id="15c05553-5dcb-4a98-bef3-bb08713bb628" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/images/logo-bgdt.png" beforeDir="false" afterPath="$PROJECT_DIR$/lib/images/logo-bgdt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/images/vien-dinh-duong-quoc-gia.png" beforeDir="false" afterPath="$PROJECT_DIR$/lib/images/vien-dinh-duong-quoc-gia.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
       <workItem from="1608798813489" duration="6261000" />
       <workItem from="1608861273585" duration="21668000" />
       <workItem from="1608889870147" duration="3847000" />
-      <workItem from="1608947821222" duration="2753000" />
+      <workItem from="1608947821222" duration="5407000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1608798913951</created>
@@ -146,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608954024803</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="init">
+      <created>1608954906370</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608954906370</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,21 +162,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1608954023747">
+    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1608954905695">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1608954023747" />
+    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1608954905695" />
     <state x="2540" y="259" key="FileChooserDialogImpl" timestamp="1608892053987">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2540" y="259" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1608892053987" />
-    <state x="2352" y="237" key="Vcs.Push.Dialog.v2" timestamp="1608954035908">
+    <state x="2352" y="237" key="Vcs.Push.Dialog.v2" timestamp="1608954910466">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2352" y="237" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1608954035908" />
+    <state x="2352" y="237" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1608954910466" />
     <state x="2536" y="406" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608798889881">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2536" y="406" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1608798889881" />
+    <state x="2416" y="233" key="run.anything.popup" timestamp="1608955105753">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2416" y="233" key="run.anything.popup/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1608955105753" />
   </component>
 </project>
