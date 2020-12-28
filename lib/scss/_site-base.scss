@@ -167,6 +167,15 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Arial-Unicode-MS';
+  src: url('../fonts/Lunchboxviethoa2.woff2') format('woff2'),
+  url('../fonts/Arial-Unicode-MS.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 $color-blue:#193393;
 $color-pink:#ed559b;
 $color-green:#0baf4d;
@@ -201,4 +210,12 @@ $color-light-cream:#f0f0f0;
 @mixin ArialUnicodeMs{
   font-family: Roboto;
   font-weight: 500;
+}
+.btn-view-more{
+  text-transform: uppercase;
+  padding: 10px 15px;
+  font-weight: 700;
+  color: white;
+  font-family: Roboto;
+  font-size: 1.2rem;
 }

@@ -113,6 +113,14 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
+.btn-view-more {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  font-weight: 700;
+  color: white;
+  font-family: Roboto;
+  font-size: 1.2rem; }
+
 /* Navbar */
 /* Blocks */
 .navbar-nav .nav-item a {
@@ -173,13 +181,6 @@
 .slider-base-box .description-owl {
   font-family: Roboto;
   font-weight: 500; }
-.slider-base-box .btn-view-more {
-  text-transform: uppercase;
-  padding: 10px 15px;
-  font-weight: 700;
-  color: white;
-  font-family: Roboto;
-  font-size: 1.2rem; }
 
 .slider-pink {
   background-color: #f0f0f0; }
