@@ -211,6 +211,9 @@ $color-light-cream:#f0f0f0;
   font-family: Roboto;
   font-weight: 500;
 }
+@mixin Roboto{
+  font-family: Roboto;
+}
 .btn-view-more{
   text-transform: uppercase;
   padding: 10px 15px;

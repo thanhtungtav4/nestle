@@ -113,6 +113,12 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
+@font-face {
+  font-family: 'Arial-Unicode-MS';
+  src: url("../fonts/Lunchboxviethoa2.woff2") format("woff2"), url("../fonts/Arial-Unicode-MS.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
 .btn-view-more {
   text-transform: uppercase;
   padding: 10px 15px;
@@ -224,6 +230,24 @@
     background: #f9bb59; }
   .section-nutri-health .col-md-3:nth-child(4) .text-nutri-title {
     color: #f9bb59; }
+
+.section-move-kitchen .btn-view-more {
+  color: white; }
+.section-move-kitchen .col-md-4:nth-child(1) .btn-view-more {
+  background-color: #f9bb59; }
+.section-move-kitchen .col-md-4:nth-child(2) .btn-view-more {
+  background-color: #0baf4d; }
+.section-move-kitchen .col-md-4:nth-child(3) .btn-view-more {
+  background-color: #ed559b; }
+
+.section-footer li:not(:last-child):after {
+  content: ' |';
+  color: #2b6bff; }
+.section-footer ul li a {
+  font-weight: 600;
+  text-decoration: underline;
+  font-family: Roboto;
+  color: #2b6bff; }
 
 /* Media */
 

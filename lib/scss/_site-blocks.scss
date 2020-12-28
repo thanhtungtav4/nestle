@@ -158,3 +158,39 @@
     }
   }
 }
+.section-move-kitchen{
+  .btn-view-more{
+    color: white;
+  }
+  .col-md-4:nth-child(1){
+    .btn-view-more{
+      background-color: $color-yellow;
+    }
+  }
+  .col-md-4:nth-child(2){
+    .btn-view-more{
+      background-color: $color-green;
+    }
+  }
+  .col-md-4:nth-child(3){
+    .btn-view-more{
+      background-color: $color-pink;
+    }
+  }
+}
+.section-footer{
+  li:not(:last-child):after {
+    content:' |';
+    color: $color-light-blue;
+  }
+  ul{
+    li {
+      a{
+        font-weight: 600;
+        text-decoration: underline;
+        @include Roboto;
+        color: $color-light-blue;
+      }
+    }
+  }
+}
