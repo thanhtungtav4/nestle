@@ -190,7 +190,13 @@
         text-decoration: underline;
         @include Roboto;
         color: $color-light-blue;
+        @include media-breakpoint-down(xs) {
+          font-size: 0.8rem;
+        }
       }
     }
+  }
+  .footer-copyright{
+
   }
 }

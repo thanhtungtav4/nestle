@@ -248,6 +248,9 @@
   text-decoration: underline;
   font-family: Roboto;
   color: #2b6bff; }
+  @media (max-width: 575.98px) {
+    .section-footer ul li a {
+      font-size: 0.8rem; } }
 
 /* Media */
 
