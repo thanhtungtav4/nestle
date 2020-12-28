@@ -177,6 +177,16 @@
       background-color: $color-pink;
     }
   }
+  .bg-color-light-cream{
+    background-color: $color-light-cream;
+  }
+  .title-move-kitchen{
+    color: $color-yellow;
+    text-transform: uppercase;
+    @include ArialUnicodeMs;
+    font-weight: 700;
+    background-color: $color-light-cream;
+  }
 }
 .section-footer{
   li:not(:last-child):after {
