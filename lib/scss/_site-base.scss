@@ -219,6 +219,6 @@ $color-light-cream:#f0f0f0;
   padding: 10px 15px;
   font-weight: 700;
   color: white;
-  font-family: Roboto;
+  @include Roboto;
   font-size: 1.2rem;
 }
