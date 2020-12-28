@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15c05553-5dcb-4a98-bef3-bb08713bb628" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/fonts/Arial-Unicode-MS.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/fonts/Lunchboxviethoa2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/images/thap-dinh-duong.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/_site-blocks.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <workItem from="1608947821222" duration="18633000" />
       <workItem from="1608999853209" duration="600000" />
       <workItem from="1609042115613" duration="692000" />
-      <workItem from="1609120023700" duration="6025000" />
+      <workItem from="1609120023700" duration="7251000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1608798913951</created>
@@ -178,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609132121588</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="init">
+      <created>1609140890099</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1609140890099</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,18 +200,18 @@
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2482" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1608959657164" />
-    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1609132120790">
+    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1609140889355">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609132120790" />
-    <state x="2540" y="259" key="FileChooserDialogImpl" timestamp="1609138687483">
+    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609140889355" />
+    <state x="2540" y="259" key="FileChooserDialogImpl" timestamp="1609141228489">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2540" y="259" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609138687483" />
-    <state x="2352" y="237" key="Vcs.Push.Dialog.v2" timestamp="1608974748835">
+    <state x="2540" y="259" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609141228489" />
+    <state x="2352" y="237" key="Vcs.Push.Dialog.v2" timestamp="1609140894369">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2352" y="237" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1608974748835" />
+    <state x="2352" y="237" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609140894369" />
     <state x="2536" y="406" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608798889881">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
