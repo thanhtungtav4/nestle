@@ -21,7 +21,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../platfromsh-gdnl-ngu-coc-an-sang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -45,6 +45,7 @@
       <workItem from="1608999853209" duration="600000" />
       <workItem from="1609042115613" duration="692000" />
       <workItem from="1609120023700" duration="13759000" />
+      <workItem from="1609153086123" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1608798913951</created>
@@ -207,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609151860044</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="init">
+      <created>1609153366798</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1609153366798</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,5 +250,17 @@
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2416" y="233" key="run.anything.popup/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1608955105753" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/index.html</url>
+          <line>369</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
