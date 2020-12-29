@@ -1,5 +1,8 @@
 .navbar-nav{
   .nav-item {
+    @include ArialUnicodeMs;
+    font-size: 1.2rem;
+    font-weight: 600;
     a{
       @include color-blue;
     }
@@ -29,6 +32,15 @@
 .search-type-nt{
   border: 1px solid $color-light-green;
   @include customer-hight-seach;
+}
+.title-owl{
+  @include ArialUnicodeMs;
+  @include SizeTittleArialUnicodeMs;
+}
+.description-owl{
+  @include Roboto;
+  font-weight: 500;
+  font-size: 1.1rem;
 }
 .owl-carousel.off {
   display: block;
@@ -93,8 +105,7 @@
   .title-owl{
     color: $pink;
     @include ArialUnicodeMs;
-    font-size: 3.4rem;
-    font-weight: 700;
+    @include SizeTittleArialUnicodeMs;
   }
   .btn-view-more{
     background-color: $pink;
@@ -123,10 +134,12 @@
   .text-nutri-title{
     font-size: 1.2rem;
     @include ArialUnicodeMs;
+    font-weight: 600;
   }
   .text-nutri-description{
     @include ArialUnicodeMs;
     color: white;
+    font-weight: 500;
   }
   .col-md-3:nth-child(1){
     .text-nutri-description{
@@ -190,6 +203,7 @@
     font-weight: 700;
     background-color: $color-light-cream;
     @include border-top-left-right;
+    @include SizeH2;
   }
 }
 .section-footer{
@@ -200,7 +214,7 @@
   ul{
     li {
       a{
-        font-weight: 600;
+        font-weight: 500;
         text-decoration: underline;
         @include Roboto;
         color: $color-light-blue;

@@ -224,6 +224,13 @@ $color-light-cream:#f0f0f0;
   font-family: 'NVNLunchBoxRegular';
   font-weight: 500;
 }
+@mixin SizeTittleArialUnicodeMs{
+  font-size: 3.4rem;
+  font-weight: 700;
+}
+@mixin SizeH2{
+  font-size: 2rem;
+}
 @mixin Roboto{
   font-family: Roboto;
 }

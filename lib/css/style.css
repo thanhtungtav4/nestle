@@ -141,8 +141,13 @@
 
 /* Navbar */
 /* Blocks */
-.navbar-nav .nav-item a {
-  color: #193393; }
+.navbar-nav .nav-item {
+  font-family: 'NVNLunchBoxRegular';
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 600; }
+  .navbar-nav .nav-item a {
+    color: #193393; }
 .navbar-nav .nav-item:nth-child(2) a {
   color: #ed559b; }
 .navbar-nav .nav-item:nth-child(3) a {
@@ -155,6 +160,17 @@
 .search-type-nt {
   border: 1px solid #a0cc68;
   height: calc(1.8rem + 2px); }
+
+.title-owl {
+  font-family: 'NVNLunchBoxRegular';
+  font-weight: 500;
+  font-size: 3.4rem;
+  font-weight: 700; }
+
+.description-owl {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1.1rem; }
 
 .owl-carousel.off {
   display: block; }
@@ -225,11 +241,13 @@
   .section-nutri-health .text-nutri-title {
     font-size: 1.2rem;
     font-family: 'NVNLunchBoxRegular';
-    font-weight: 500; }
+    font-weight: 500;
+    font-weight: 600; }
   .section-nutri-health .text-nutri-description {
     font-family: 'NVNLunchBoxRegular';
     font-weight: 500;
-    color: white; }
+    color: white;
+    font-weight: 500; }
   .section-nutri-health .col-md-3:nth-child(1) .text-nutri-description {
     background: #193393; }
   .section-nutri-health .col-md-3:nth-child(1) .text-nutri-title {
@@ -265,13 +283,14 @@
   font-weight: 700;
   background-color: #f0f0f0;
   border-top-right-radius: 20px;
-  border-top-left-radius: 20px; }
+  border-top-left-radius: 20px;
+  font-size: 2rem; }
 
 .section-footer li:not(:last-child):after {
   content: ' |';
   color: #2b6bff; }
 .section-footer ul li a {
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: underline;
   font-family: Roboto;
   color: #2b6bff; }
