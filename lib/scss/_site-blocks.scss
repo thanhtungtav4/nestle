@@ -193,18 +193,18 @@
   .btn-view-more{
     color: white;
   }
-  .col-md-4:nth-child(1){
-    .btn-view-more{
+  #carousel-move{
+    .title-move-kitchen{
+      color: $color-gray;
+      padding-top: 1.2rem;
+    }
+    .btn-view-more-color-yellow{
       background-color: $color-yellow;
     }
-  }
-  .col-md-4:nth-child(2){
-    .btn-view-more{
+    .btn-view-more-color-green{
       background-color: $color-green;
     }
-  }
-  .col-md-4:nth-child(3){
-    .btn-view-more{
+    .btn-view-more-color-pink{
       background-color: $color-pink;
     }
   }

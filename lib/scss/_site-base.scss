@@ -186,9 +186,6 @@
   text-rendering: optimizeLegibility;
 }
 
-
-
-
 $color-blue:#193393;
 $color-pink:#ed559b;
 $color-green:#0baf4d;
@@ -202,6 +199,9 @@ $color-dark-gray:#bcbcbc;
 //gen hex color
 @mixin color-blue {
   color: $color-blue;
+}
+@mixin color-gray {
+  color: $color-gray;
 }
 @mixin color-pink {
   color: $color-pink;

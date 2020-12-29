@@ -276,11 +276,14 @@
 
 .section-move-kitchen .btn-view-more {
   color: white; }
-.section-move-kitchen .col-md-4:nth-child(1) .btn-view-more {
+.section-move-kitchen #carousel-move .title-move-kitchen {
+  color: #949494;
+  padding-top: 1.2rem; }
+.section-move-kitchen #carousel-move .btn-view-more-color-yellow {
   background-color: #f9bb59; }
-.section-move-kitchen .col-md-4:nth-child(2) .btn-view-more {
+.section-move-kitchen #carousel-move .btn-view-more-color-green {
   background-color: #0baf4d; }
-.section-move-kitchen .col-md-4:nth-child(3) .btn-view-more {
+.section-move-kitchen #carousel-move .btn-view-more-color-pink {
   background-color: #ed559b; }
 .section-move-kitchen .bg-color-light-cream {
   background-color: #f0f0f0; }
