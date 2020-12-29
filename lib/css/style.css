@@ -161,6 +161,12 @@
   border: 1px solid #a0cc68;
   height: calc(1.8rem + 2px); }
 
+@media (min-width: 768px) {
+  .nt-seach-form .form-control-feedback {
+    right: 21px;
+    top: 7px;
+    color: #bcbcbc; } }
+
 .title-owl {
   font-family: 'NVNLunchBoxRegular';
   font-weight: 500;
