@@ -214,6 +214,10 @@ $color-light-cream:#f0f0f0;
 @mixin Roboto{
   font-family: Roboto;
 }
+@mixin border-top-left-right{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
 .btn-view-more{
   text-transform: uppercase;
   padding: 10px 15px;

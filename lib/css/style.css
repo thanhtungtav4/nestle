@@ -247,7 +247,9 @@
   font-family: Roboto;
   font-weight: 500;
   font-weight: 700;
-  background-color: #f0f0f0; }
+  background-color: #f0f0f0;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px; }
 
 .section-footer li:not(:last-child):after {
   content: ' |';

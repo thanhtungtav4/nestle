@@ -186,6 +186,7 @@
     @include ArialUnicodeMs;
     font-weight: 700;
     background-color: $color-light-cream;
+    @include border-top-left-right;
   }
 }
 .section-footer{
