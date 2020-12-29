@@ -162,10 +162,13 @@
   height: calc(1.8rem + 2px); }
 
 @media (min-width: 768px) {
+  .nt-seach-form .position-relative-nt {
+    position: relative; }
   .nt-seach-form .form-control-feedback {
     right: 21px;
     top: 7px;
-    color: #bcbcbc; } }
+    color: #bcbcbc;
+    position: absolute; } }
 
 .title-owl {
   font-family: 'NVNLunchBoxRegular';

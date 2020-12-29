@@ -35,12 +35,16 @@
 }
 .nt-seach-form{
   @include media-breakpoint-up(md) {
+    .position-relative-nt{
+      position: relative;
+    }
     .search-type-nt {
     }
     .form-control-feedback{
       right: 21px;
       top: 7px;
       color: $color-dark-gray;
+      position: absolute;
     }
   }
 }
