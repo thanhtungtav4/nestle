@@ -92,6 +92,9 @@
    background-color: $color-light-cream;
   .title-owl{
     color: $pink;
+    @include ArialUnicodeMs;
+    font-size: 3.4rem;
+    font-weight: 700;
   }
   .btn-view-more{
     background-color: $pink;

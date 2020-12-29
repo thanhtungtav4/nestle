@@ -159,22 +159,35 @@
   font-style: normal;
   font-display: swap;
 }
+/* Webfont: NVNLunchBox-Bold */
 @font-face {
-  font-family: 'Lunchboxviethoa';
-  src: url('../fonts/Lunchboxviethoa2.woff2') format('woff2'),
-  url('../fonts/Lunchboxviethoa2.woff') format('woff');
-  font-weight: normal;
+  font-family: 'NVNLunchBox';
+  src: url('../fonts/NVNLuchBoxBold.woff2') format('woff2'), /* Modern Browsers */
+  url('../fonts/NVNLuchBoxBold.otf') format('opentype'); /* Safari, Android, iOS */
   font-style: normal;
-  font-display: swap;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
 }
+/* Webfont: NVNLunchBox-Light */
 @font-face {
-  font-family: 'Arial-Unicode-MS';
-  src: url('../fonts/Lunchboxviethoa2.woff2') format('woff2'),
-  url('../fonts/Arial-Unicode-MS.woff') format('woff');
-  font-weight: normal;
+  font-family: 'NVNLunchBoxLight';
+  src: url('../fonts/NVNLuchBoxLight.woff2') format('woff2'), /* Modern Browsers */
+  url('../fonts/NVNLuchBoxLight.otf') format('opentype'); /* Safari, Android, iOS */
   font-style: normal;
-  font-display: swap;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
 }
+/* Webfont: NVNLunchBox-Regular */@font-face {
+  font-family: 'NVNLunchBoxRegular';
+  src: url('../fonts/NVNLuchBoxRegular.woff2') format('woff2'), /* Modern Browsers */
+  url('../fonts/NVNLuchBoxRegular.otf') format('opentype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+
+
 
 $color-blue:#193393;
 $color-pink:#ed559b;
@@ -208,7 +221,7 @@ $color-light-cream:#f0f0f0;
   height: calc(1.8rem + 2px);
 }
 @mixin ArialUnicodeMs{
-  font-family: Roboto;
+  font-family: 'NVNLunchBoxRegular';
   font-weight: 500;
 }
 @mixin Roboto{
