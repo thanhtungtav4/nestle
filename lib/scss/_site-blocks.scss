@@ -306,4 +306,44 @@
   .border-bottom-right-radius{
     border-bottom-right-radius: 1.2rem;
   }
+  .category-name{
+    @include ArialUnicodeMs;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: $color-yellow;
+    padding: 4px 15px;
+    color: white;
+    border-radius: 20px;
+  }
+  .text-tab-title-h4{
+    font-size: 1.5rem;
+    @include Roboto;
+    color: #949494;
+    color: $clor-gray-bold;
+    width: 60%;
+  }
+  .name-tab-show{
+    @include SizeH3;
+    font-size: 5rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .description-tab-show{
+    @include Roboto;
+    font-weight: 600;
+    font-size: 1.2rem;
+    justify-content: center;
+    color: $color-gray;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  .btn-next-view{
+    @include ArialUnicodeMs;
+    font-size: 1.5rem;
+    color: white;
+    background-color: $color-blue;
+    padding: 3px 17px;
+    border-radius: 15px;
+    font-weight: 600;
+  }
 }
