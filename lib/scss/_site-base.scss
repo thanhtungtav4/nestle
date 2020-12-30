@@ -254,3 +254,8 @@ $color-dark-gray-light:#f0f0f0;
   @include Roboto;
   font-size: 1.2rem;
 }
+.bg-image-class{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
