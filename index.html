@@ -352,7 +352,7 @@
     autoplay: false,
     lazyLoad: true,
     loop: true,
-    margin: 0,
+    margin: 10,
     touchDrag: false,
     mouseDrag:false,
     responsiveClass: true,
@@ -364,19 +364,25 @@
     items: 3,
     responsive: {
       0: {
-        items: 1,
-        autoHeight: true,
-        mouseDrag: true,
-        touchDrag: true,
-        dots: true,
+            items: 1,
+            autoHeight: true,
+            mouseDrag: true,
+            touchDrag: true,
+            dots: true,
       },
       768: {
-        items: 1,
-        autoHeight: true,
-        mouseDrag: true,
-        touchDrag: true,
-        dots: true,
+            items: 1,
+            autoHeight: true,
+            mouseDrag: true,
+            touchDrag: true,
+            dots: true,
       },
+      800: {
+        items: 2,
+      },
+      1024: {
+        items: 3,
+      }
     }
   });
   /// Em vào bếp
