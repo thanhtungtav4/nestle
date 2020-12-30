@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15c05553-5dcb-4a98-bef3-bb08713bb628" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tap-thoi-quen-tot/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +24,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tap-thoi-quen-tot" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\nestle\tap-thoi-quen-tot" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\nestle\lib" />
     </key>
@@ -49,7 +53,7 @@
       <workItem from="1609120023700" duration="13759000" />
       <workItem from="1609153086123" duration="663000" />
       <workItem from="1609205895027" duration="12825000" />
-      <workItem from="1609292509194" duration="300000" />
+      <workItem from="1609292509194" duration="725000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1608798913951</created>
@@ -275,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609232694810</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="init home page">
+      <created>1609292824540</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1609292824540</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,25 +294,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="init home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="init home page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2482" y="306" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608959657164">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2482" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1608959657164" />
-    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1609232694163">
+    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1609292823933">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609232694163" />
+    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609292823933" />
     <state x="2540" y="259" key="FileChooserDialogImpl" timestamp="1609232739309">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2540" y="259" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609232739309" />
-    <state x="2352" y="237" key="Vcs.Push.Dialog.v2" timestamp="1609232703163">
+    <state x="2352" y="237" key="Vcs.Push.Dialog.v2" timestamp="1609292831800">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2352" y="237" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609232703163" />
+    <state x="2352" y="237" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609292831800" />
     <state x="2536" y="406" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608798889881">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
