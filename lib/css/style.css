@@ -406,10 +406,25 @@
   font-weight: 500;
   font-size: 1.5rem;
   color: white;
-  background-color: #193393;
   padding: 3px 17px;
   border-radius: 15px;
   font-weight: 600; }
+.section-tab .tab-content .tab-pane:nth-child(1) .name-tab-show {
+  color: #193393; }
+.section-tab .tab-content .tab-pane:nth-child(1) .btn-next-view {
+  background-color: #193393; }
+.section-tab .tab-content .tab-pane:nth-child(2) .name-tab-show {
+  color: #2b6bff; }
+.section-tab .tab-content .tab-pane:nth-child(2) .btn-next-view {
+  background-color: #2b6bff; }
+.section-tab .tab-content .tab-pane:nth-child(3) .name-tab-show {
+  color: #a0cc68; }
+.section-tab .tab-content .tab-pane:nth-child(3) .btn-next-view {
+  background-color: #a0cc68; }
+.section-tab .tab-content .tab-pane:nth-child(4) .name-tab-show {
+  color: #f9bb59; }
+.section-tab .tab-content .tab-pane:nth-child(4) .btn-next-view {
+  background-color: #f9bb59; }
 
 /* Media */
 

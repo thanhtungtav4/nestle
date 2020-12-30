@@ -341,9 +341,42 @@
     @include ArialUnicodeMs;
     font-size: 1.5rem;
     color: white;
-    background-color: $color-blue;
     padding: 3px 17px;
     border-radius: 15px;
     font-weight: 600;
+  }
+  .tab-content{
+    .tab-pane:nth-child(1){
+      .name-tab-show{
+        @include color-blue;
+      }
+      .btn-next-view {
+        background-color: $color-blue;
+      }
+    }
+    .tab-pane:nth-child(2){
+      .name-tab-show{
+        @include color-light-blue;
+      }
+      .btn-next-view {
+        background-color: $color-light-blue;
+      }
+    }
+    .tab-pane:nth-child(3){
+      .name-tab-show{
+        @include color-light-green;
+      }
+      .btn-next-view {
+        background-color: $color-light-green;
+      }
+    }
+    .tab-pane:nth-child(4){
+      .name-tab-show{
+        @include color-yellow;
+      }
+      .btn-next-view {
+        background-color: $color-yellow;
+      }
+    }
   }
 }
