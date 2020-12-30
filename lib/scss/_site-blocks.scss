@@ -140,7 +140,24 @@
     background-color: white;
   }
 }
-
+//gen box sider green
+.slider-blue{
+  color: white;
+  background-color: $color-dark-gray-light;
+  .title-owl{
+    color: $color-light-blue;
+  }
+  .description-owl{
+    color: $clor-gray-bold;
+  }
+  .btn-view-more{
+    color: white;
+    background-color: $color-light-blue;
+  }
+}
+.border-top-line{
+  border-top: 1.5px solid #c2c2c2;
+}
 .section-nutri-health{
   text-transform: uppercase;
   .w-box-nutri-icon{

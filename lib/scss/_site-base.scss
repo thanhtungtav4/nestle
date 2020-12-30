@@ -192,10 +192,12 @@ $color-green:#0baf4d;
 $color-light-blue:#2b6bff;
 $color-yellow:#f9bb59;
 $color-light-green:#a0cc68;
+$clor-gray-bold:#626262;
 $color-gray:#949494;
 $color-violet:#9c6fad;
 $color-light-cream:#f0f0f0;
 $color-dark-gray:#bcbcbc;
+$color-dark-gray-light:#f0f0f0;
 //gen hex color
 @mixin color-blue {
   color: $color-blue;

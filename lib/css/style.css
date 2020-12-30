@@ -243,6 +243,20 @@
     color: #0baf4d;
     background-color: white; }
 
+.slider-blue {
+  color: white;
+  background-color: #f0f0f0; }
+  .slider-blue .title-owl {
+    color: #2b6bff; }
+  .slider-blue .description-owl {
+    color: #626262; }
+  .slider-blue .btn-view-more {
+    color: white;
+    background-color: #2b6bff; }
+
+.border-top-line {
+  border-top: 1.5px solid #c2c2c2; }
+
 .section-nutri-health {
   text-transform: uppercase; }
   .section-nutri-health .w-box-nutri-icon {
