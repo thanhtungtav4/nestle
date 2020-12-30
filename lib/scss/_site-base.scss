@@ -234,6 +234,11 @@ $color-dark-gray-light:#f0f0f0;
 @mixin SizeH2{
   font-size: 2rem;
 }
+@mixin SizeH3{
+  font-size: 1.2rem;
+  @include ArialUnicodeMs;
+  font-weight: 600;
+}
 @mixin Roboto{
   font-family: Roboto;
 }
