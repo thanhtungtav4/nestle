@@ -116,7 +116,7 @@
   <section class="section-tab py-5">
     <div class="container">
       <ul class="nav nav-tabs text-center navbar-full list-inline">
-        <li class="active"><a data-toggle="tab" href="#an-ngon-an-dung">
+        <li class="active"><a data-toggle="tab" href="#an-ngon-an-dung" class="active show">
           <div class="box-tab position-relative">
             <div class="tab-image-action">
               <img src="../lib/images/an-ngon-an-dung.png" class="img-fluid w-50">
@@ -150,7 +150,7 @@
         </a></li>
       </ul>
       <div class="tab-content">
-        <div id="an-ngon-an-dung" class="tab-pane fade in active show">
+        <div id="an-ngon-an-dung" class="tab-pane fade in active">
           <h3>an-ngon-an-dung</h3>
           <p>Some content.</p>
         </div>
@@ -277,16 +277,18 @@
     items: 1,
   });
 </script>
+<!--onlypage-->
 <script>
-  //Match title height
-  function MatchHeight() {
-    $(".description-move-kitchen").matchHeight({});
-    $(".title-move-kitchen").matchHeight({});
-  }
-  //Functions that run when all HTML is loaded
-  $(document).ready(function () {
-    MatchHeight();
-  });
+    $('.nav li').click(function(e) {
+      $('.nav li a').removeClass('active');
+      $('.nav li').removeClass('active');
+      var $this = $(this);
+      if (!$this.hasClass('active')) {
+        $this.addClass('active');
+      }
+      //e.preventDefault();
+    });
 </script>
+<!--onlypage-->
 </body>
 </html>
