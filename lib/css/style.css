@@ -344,7 +344,9 @@
 .section-tab .text-tab-title {
   padding: 2.5rem 15px 15px 15px; }
 .section-tab .list-inline {
-  display: flex; }
+  display: flex;
+  background: whitesmoke;
+  background: linear-gradient(0deg, whitesmoke 0%, rgba(0, 0, 0, 0) 100%); }
 .section-tab .list-inline li {
   flex: 1; }
 .section-tab .nav-tabs {
@@ -356,6 +358,10 @@
 .section-tab .tab-content {
   background-color: #f5f5f5;
   padding: 2rem; }
+.section-tab .border-bottom-left-radius {
+  border-bottom-left-radius: 1.2rem; }
+.section-tab .border-bottom-right-radius {
+  border-bottom-right-radius: 1.2rem; }
 
 /* Media */
 

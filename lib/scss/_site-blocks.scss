@@ -283,6 +283,8 @@
   }
   .list-inline {
     display: flex;
+    background: rgb(245,245,245);
+    background: linear-gradient(0deg, rgba(245,245,245,1) 0%, rgba(0,0,0,0) 100%);
   }
   .list-inline li {
     flex: 1;
@@ -297,5 +299,11 @@
   .tab-content{
     background-color: #f5f5f5;
     padding: 2rem;
+  }
+  .border-bottom-left-radius{
+  border-bottom-left-radius: 1.2rem;
+ }
+  .border-bottom-right-radius{
+    border-bottom-right-radius: 1.2rem;
   }
 }
