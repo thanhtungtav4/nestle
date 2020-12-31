@@ -426,6 +426,31 @@
 .section-tab .tab-content .tab-pane:nth-child(4) .btn-next-view {
   background-color: #f9bb59; }
 
+.section-breadcrumb .breadcrumb {
+  background-color: white;
+  font-weight: 500;
+  font-size: 1.1rem;
+  font-family: Roboto;
+  color: #8f8f8f; }
+  .section-breadcrumb .breadcrumb a {
+    color: #8f8f8f; }
+.section-breadcrumb .breadcrumb-item + .breadcrumb-item:before {
+  color: #8f8f8f;
+  content: ">"; }
+
+.section-queue .text-title-queue {
+  font-family: 'NVNLunchBoxRegular';
+  font-weight: 500;
+  font-size: 2rem;
+  color: #ed559b;
+  font-size: 3.4rem;
+  font-weight: 700; }
+.section-queue .description-queue {
+  font-family: Roboto;
+  color: #949494;
+  font-weight: 500;
+  font-size: 1.1rem; }
+
 /* Media */
 
 /*# sourceMappingURL=style.css.map */

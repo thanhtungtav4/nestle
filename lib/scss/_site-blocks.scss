@@ -380,3 +380,33 @@
     }
   }
 }
+.section-breadcrumb{
+  .breadcrumb{
+    background-color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    @include Roboto;
+    @include color-breadcrumb;
+    a{
+      @include color-breadcrumb;
+    }
+  }
+  .breadcrumb-item+.breadcrumb-item:before {
+    @include color-breadcrumb;
+    content: ">";
+  }
+}
+.section-queue{
+  .text-title-queue{
+    @include ArialUnicodeMs;
+    @include SizeH2;
+    @include color-pink;
+    @include SizeTittleArialUnicodeMs;
+  }
+  .description-queue{
+    @include Roboto;
+    @include color-gray;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+}

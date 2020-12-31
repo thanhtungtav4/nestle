@@ -242,6 +242,9 @@ $color-dark-gray-light:#f0f0f0;
 @mixin Roboto{
   font-family: Roboto;
 }
+@mixin color-breadcrumb{
+  color: #8f8f8f;
+}
 @mixin border-top-left-right{
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
