@@ -477,9 +477,38 @@
   @media (max-width: 575.98px) {
     .section-all-post .row .col-md-4 .card {
       margin: 0.3rem; } }
+  .section-all-post .row .col-md-4 .card .card-text {
+    font-family: 'Roboto-Regular';
+    font-weight: 600;
+    color: #949494; }
+.section-all-post .all-post-name {
+  font-family: 'NVNLunchBoxRegular';
+  font-weight: 500;
+  font-weight: bold;
+  font-size: 2.2rem;
+  border-top-right-radius: 20px; }
+
+.color-blue {
+  color: #193393; }
 
 .bg-gray {
   background-color: #efefef; }
+
+.form-control-nt {
+  border-radius: 20px;
+  padding: 5px 2rem;
+  text-transform: uppercase;
+  font-family: 'Roboto-Regular';
+  font-weight: 500; }
+
+.btn-seach-nt {
+  border-radius: 20px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  color: white;
+  font-family: Roboto;
+  font-weight: 600;
+  background-color: #2b6bff; }
 
 /* Media */
 

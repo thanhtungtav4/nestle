@@ -452,10 +452,40 @@
           @include media-breakpoint-down(xs) {
             margin: 0.3rem;
           }
+        .card-text{
+          @include RobotoRegular;
+          font-weight: 600;
+          @include color-gray;
+        }
       }
     }
   }
+  .all-post-name{
+    @include ArialUnicodeMs;
+    font-weight: bold;
+    font-size: 2.2rem;
+    border-top-right-radius: 20px;
+  }
+}
+.color-blue{
+  @include color-blue;
 }
 .bg-gray{
   background-color: $color-pink-light;
+}
+.form-control-nt{
+  border-radius: 20px;
+  padding: 5px 2rem;
+  text-transform: uppercase;
+  @include RobotoRegular;
+  font-weight: 500;
+}
+.btn-seach-nt{
+  border-radius: 20px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  color: white;
+  @include Roboto;
+  font-weight: 600;
+  background-color: $color-light-blue;
 }
