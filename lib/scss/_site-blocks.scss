@@ -280,11 +280,32 @@
   }
   .text-tab-title{
     padding: 2.5rem 15px 15px 15px;
+    text-transform: uppercase;
   }
   .list-inline {
     display: flex;
     background: rgb(245,245,245);
     background: linear-gradient(0deg, rgba(245,245,245,1) 0%, rgba(0,0,0,0) 100%);
+    .panel:nth-child(1){
+      .text-tab-title{
+        color: $color-blue;
+      }
+    }
+    .panel:nth-child(2){
+      .text-tab-title{
+        color: $color-light-blue;
+      }
+    }
+    .panel:nth-child(3){
+      .text-tab-title{
+        color: $color-green;
+      }
+    }
+    .panel:nth-child(4){
+      .text-tab-title{
+        color: $color-yellow;
+      }
+    }
   }
   .list-inline li {
     flex: 1;

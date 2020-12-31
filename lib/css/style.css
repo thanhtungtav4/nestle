@@ -350,11 +350,20 @@
   left: 15%;
   right: 15%; }
 .section-tab .text-tab-title {
-  padding: 2.5rem 15px 15px 15px; }
+  padding: 2.5rem 15px 15px 15px;
+  text-transform: uppercase; }
 .section-tab .list-inline {
   display: flex;
   background: whitesmoke;
   background: linear-gradient(0deg, whitesmoke 0%, rgba(0, 0, 0, 0) 100%); }
+  .section-tab .list-inline .panel:nth-child(1) .text-tab-title {
+    color: #193393; }
+  .section-tab .list-inline .panel:nth-child(2) .text-tab-title {
+    color: #2b6bff; }
+  .section-tab .list-inline .panel:nth-child(3) .text-tab-title {
+    color: #0baf4d; }
+  .section-tab .list-inline .panel:nth-child(4) .text-tab-title {
+    color: #f9bb59; }
 .section-tab .list-inline li {
   flex: 1; }
 .section-tab .nav-tabs {
