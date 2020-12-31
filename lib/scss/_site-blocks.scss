@@ -424,6 +424,8 @@
     @include SizeH2;
     @include color-pink;
     @include SizeTittleArialUnicodeMs;
+    margin: 0;
+    line-height: 100%;
   }
   .description-queue{
     @include Roboto;
@@ -488,4 +490,10 @@
   @include Roboto;
   font-weight: 600;
   background-color: $color-light-blue;
+}
+.color-blue {
+  color: $color-blue !important;
+}
+.RobotoRegular{
+  font-family: 'Roboto-Regular'!important;
 }

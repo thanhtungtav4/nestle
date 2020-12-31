@@ -454,7 +454,9 @@
   font-size: 2rem;
   color: #ed559b;
   font-size: 3.4rem;
-  font-weight: 700; }
+  font-weight: 700;
+  margin: 0;
+  line-height: 100%; }
 .section-queue .description-queue {
   font-family: Roboto;
   color: #949494;
@@ -509,6 +511,12 @@
   font-family: Roboto;
   font-weight: 600;
   background-color: #2b6bff; }
+
+.color-blue {
+  color: #193393 !important; }
+
+.RobotoRegular {
+  font-family: "Roboto-Regular" !important; }
 
 /* Media */
 
