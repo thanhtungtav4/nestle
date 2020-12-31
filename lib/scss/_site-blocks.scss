@@ -407,7 +407,7 @@
     background-color: white;
     font-weight: 500;
     font-size: 1.1rem;
-    @include Roboto;
+    @include RobotoRegular;
     @include color-breadcrumb;
     a{
       @include color-breadcrumb;
