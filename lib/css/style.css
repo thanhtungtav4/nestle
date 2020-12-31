@@ -153,7 +153,8 @@
   font-family: 'NVNLunchBoxRegular';
   font-weight: 500;
   font-size: 1.2rem;
-  font-weight: 600; }
+  font-weight: 600;
+  line-height: 100%; }
   .navbar-nav .nav-item a {
     color: #193393; }
 .navbar-nav .nav-item:nth-child(2) a {
@@ -168,7 +169,8 @@
 .search-type-nt {
   border: 1px solid #a0cc68;
   height: calc(1.8rem + 2px);
-  border-radius: 12px; }
+  border-radius: 12px;
+  line-height: 100%; }
 
 @media (min-width: 768px) {
   .nt-seach-form .position-relative-nt {
@@ -183,12 +185,14 @@
   font-family: 'NVNLunchBoxRegular';
   font-weight: 500;
   font-size: 3.4rem;
-  font-weight: 700; }
+  font-weight: 700;
+  line-height: 100%; }
 
 .description-owl {
   font-family: Roboto;
   font-weight: 500;
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  line-height: 100%; }
 
 .owl-carousel.off {
   display: block; }
@@ -232,7 +236,8 @@
 
 .slider-base-box .description-owl {
   font-family: Roboto;
-  font-weight: 500; }
+  font-weight: 500;
+  line-height: 100%; }
 
 .slider-pink {
   background-color: #f0f0f0; }
@@ -256,12 +261,15 @@
   color: white;
   background-color: #f0f0f0; }
   .slider-blue .title-owl {
-    color: #2b6bff; }
+    color: #2b6bff;
+    line-height: 100%; }
   .slider-blue .description-owl {
-    color: #626262; }
+    color: #626262;
+    line-height: 100%; }
   .slider-blue .btn-view-more {
     color: white;
-    background-color: #2b6bff; }
+    background-color: #2b6bff;
+    line-height: 100%; }
 
 .border-top-line {
   border-top: 1.5px solid #c2c2c2; }
@@ -274,12 +282,14 @@
     font-size: 1.2rem;
     font-family: 'NVNLunchBoxRegular';
     font-weight: 500;
-    font-weight: 600; }
+    font-weight: 600;
+    line-height: 100%; }
   .section-nutri-health .text-nutri-description {
     font-family: 'NVNLunchBoxRegular';
     font-weight: 500;
     color: white;
-    font-weight: 500; }
+    font-weight: 500;
+    line-height: 100%; }
   .section-nutri-health .col-md-3:nth-child(1) .text-nutri-description {
     background: #193393; }
   .section-nutri-health .col-md-3:nth-child(1) .text-nutri-title {
@@ -298,10 +308,12 @@
     color: #f9bb59; }
 
 .section-move-kitchen .btn-view-more {
-  color: white; }
+  color: white;
+  line-height: 100%; }
 .section-move-kitchen #carousel-move .title-move-kitchen {
   color: #949494;
-  padding-top: 1.2rem; }
+  padding-top: 1.2rem;
+  line-height: 100%; }
 .section-move-kitchen #carousel-move .btn-view-more-color-yellow {
   background-color: #f9bb59; }
 .section-move-kitchen #carousel-move .btn-view-more-color-green {

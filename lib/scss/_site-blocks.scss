@@ -3,6 +3,7 @@
     @include ArialUnicodeMs;
     font-size: 1.2rem;
     font-weight: 600;
+    line-height: 100%;
     a{
       @include color-blue;
     }
@@ -33,6 +34,7 @@
   border: 1px solid $color-light-green;
   @include customer-hight-seach;
   border-radius: 12px;
+  line-height: 100%;
 }
 .nt-seach-form{
   @include media-breakpoint-up(md) {
@@ -52,11 +54,13 @@
 .title-owl{
   @include ArialUnicodeMs;
   @include SizeTittleArialUnicodeMs;
+  line-height: 100%;
 }
 .description-owl{
   @include Roboto;
   font-weight: 500;
   font-size: 1.1rem;
+  line-height: 100%;
 }
 .owl-carousel.off {
   display: block;
@@ -113,6 +117,7 @@
    .description-owl{
       font-family: Roboto;
       font-weight: 500;
+      line-height: 100%;
    }
 }
 //gen box sider pink
@@ -147,13 +152,16 @@
   background-color: $color-dark-gray-light;
   .title-owl{
     color: $color-light-blue;
+    line-height: 100%;
   }
   .description-owl{
     color: $clor-gray-bold;
+    line-height: 100%;
   }
   .btn-view-more{
     color: white;
     background-color: $color-light-blue;
+    line-height: 100%;
   }
 }
 .border-top-line{
@@ -168,11 +176,13 @@
     font-size: 1.2rem;
     @include ArialUnicodeMs;
     font-weight: 600;
+    line-height: 100%;
   }
   .text-nutri-description{
     @include ArialUnicodeMs;
     color: white;
     font-weight: 500;
+    line-height: 100%;
   }
   .col-md-3:nth-child(1){
     .text-nutri-description{
@@ -210,11 +220,13 @@
 .section-move-kitchen{
   .btn-view-more{
     color: white;
+    line-height: 100%;
   }
   #carousel-move{
     .title-move-kitchen{
       color: $color-gray;
       padding-top: 1.2rem;
+      line-height: 100%;
     }
     .btn-view-more-color-yellow{
       background-color: $color-yellow;
