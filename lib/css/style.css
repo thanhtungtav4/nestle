@@ -147,6 +147,9 @@
 .color-pink-bg {
   background-color: #ed559b !important; }
 
+.color-yellow {
+  color: #f9bb59 !important; }
+
 /* Navbar */
 /* Blocks */
 .navbar-nav .nav-item {
@@ -339,7 +342,7 @@
 .section-footer ul li a {
   font-weight: 500;
   text-decoration: underline;
-  font-family: Roboto;
+  font-family: 'Roboto-Regular';
   color: #2b6bff; }
   @media (max-width: 575.98px) {
     .section-footer ul li a {
@@ -529,6 +532,10 @@
 
 .RobotoRegular {
   font-family: "Roboto-Regular" !important; }
+
+.border-top-left-right {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px; }
 
 /* Media */
 
