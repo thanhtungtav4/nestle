@@ -471,7 +471,15 @@
 
 .section-all-post .row .col-md-4 .card {
   border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px; }
+  border-bottom-left-radius: 20px;
+  border: 1.5px solid rgba(0, 0, 0, 0.125);
+  margin: 1rem; }
+  @media (max-width: 575.98px) {
+    .section-all-post .row .col-md-4 .card {
+      margin: 0.3rem; } }
+
+.bg-gray {
+  background-color: #efefef; }
 
 /* Media */
 

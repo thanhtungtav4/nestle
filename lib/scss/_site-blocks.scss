@@ -447,7 +447,15 @@
     {
       .card{
           @include border-bottom-left-right;
+          border: 1.5px solid rgba(0, 0, 0, 0.125);
+          margin: 1rem;
+          @include media-breakpoint-down(xs) {
+            margin: 0.3rem;
+          }
       }
     }
   }
+}
+.bg-gray{
+  background-color: $color-pink-light;
 }
