@@ -152,7 +152,7 @@
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Regular';
   src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
   url('../fonts/Roboto-Regular.woff') format('woff');
   font-weight: normal;
@@ -198,6 +198,7 @@ $color-violet:#9c6fad;
 $color-light-cream:#f0f0f0;
 $color-dark-gray:#bcbcbc;
 $color-dark-gray-light:#f0f0f0;
+$color-pink-light: #efefef;
 //gen hex color
 @mixin color-blue {
   color: $color-blue;
@@ -227,6 +228,9 @@ $color-dark-gray-light:#f0f0f0;
   font-family: 'NVNLunchBoxRegular';
   font-weight: 500;
 }
+@mixin RobotoRegular{
+  font-family: 'Roboto-Regular';
+}
 @mixin SizeTittleArialUnicodeMs{
   font-size: 3.4rem;
   font-weight: 700;
@@ -248,6 +252,10 @@ $color-dark-gray-light:#f0f0f0;
 @mixin border-top-left-right{
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+}
+@mixin border-bottom-left-right{
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 .btn-view-more{
   text-transform: uppercase;

@@ -32,6 +32,7 @@
 .search-type-nt{
   border: 1px solid $color-light-green;
   @include customer-hight-seach;
+  border-radius: 12px;
 }
 .nt-seach-form{
   @include media-breakpoint-up(md) {
@@ -429,5 +430,24 @@
     @include color-gray;
     font-weight: 500;
     font-size: 1.1rem;
+  }
+}
+.color-light-green-bg{
+  background-color: $color-pink-light;
+  .description-owl{
+    @include RobotoRegular;
+    @include color-gray;
+    font-size: 1.3rem;
+    font-weight: 500
+  }
+}
+.section-all-post {
+  .row {
+    .col-md-4
+    {
+      .card{
+          @include border-bottom-left-right;
+      }
+    }
   }
 }
