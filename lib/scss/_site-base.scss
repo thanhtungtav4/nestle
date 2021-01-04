@@ -193,12 +193,14 @@ $color-light-blue:#2b6bff;
 $color-yellow:#f9bb59;
 $color-light-green:#a0cc68;
 $clor-gray-bold:#626262;
+$clor-gray-dark:#b7b7b7;
 $color-gray:#949494;
 $color-violet:#9c6fad;
 $color-light-cream:#f0f0f0;
 $color-dark-gray:#bcbcbc;
 $color-dark-gray-light:#f0f0f0;
 $color-pink-light: #efefef;
+
 //gen hex color
 @mixin color-blue {
   color: $color-blue;
@@ -275,4 +277,7 @@ $color-pink-light: #efefef;
 }
 .color-yellow{
   color:  $color-yellow !important;
+}
+.color-dark-gary{
+  background-color: $clor-gray-dark;
 }

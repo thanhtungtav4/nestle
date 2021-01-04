@@ -150,6 +150,9 @@
 .color-yellow {
   color: #f9bb59 !important; }
 
+.color-dark-gary {
+  background-color: #b7b7b7; }
+
 /* Navbar */
 /* Blocks */
 .navbar-nav .nav-item {
