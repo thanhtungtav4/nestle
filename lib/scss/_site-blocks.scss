@@ -534,6 +534,16 @@
     border-left: 1.7px solid white;
   }
 }
+.color-green-all{
+  h2{
+    color: $color-green;
+  }
+  .ul-list-step{
+    li:before{
+      background-color: $color-green;
+    }
+  }
+}
 
 .form-control-nt{
   border-radius: 20px;

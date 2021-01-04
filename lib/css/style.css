@@ -171,7 +171,7 @@
   color: #ed559b; }
 
 .color-green {
-  color: #0baf4d; }
+  color: #0baf4d !important; }
 
 .color-gray-bold {
   color: #626262; }
@@ -581,6 +581,11 @@
   content: '3'; }
 .section-detail-content .border-left-line {
   border-left: 1.7px solid white; }
+
+.color-green-all h2 {
+  color: #0baf4d; }
+.color-green-all .ul-list-step li:before {
+  background-color: #0baf4d; }
 
 .form-control-nt {
   border-radius: 20px;
