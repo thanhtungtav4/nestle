@@ -230,6 +230,14 @@ $color-pink-light: #efefef;
   font-family: 'NVNLunchBoxRegular';
   font-weight: 500;
 }
+@mixin ArialUnicodeMsBold{
+  font-family: 'NVNLunchBox';
+  font-weight: 500;
+}
+@mixin ArialUnicodeMsLight{
+  font-family: 'NVNLunchBoxLight';
+  font-weight: 500;
+}
 @mixin RobotoRegular{
   font-family: 'Roboto-Regular';
 }
