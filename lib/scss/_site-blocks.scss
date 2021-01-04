@@ -563,6 +563,9 @@
 .border-top-left-right{
   @include border-top-left-right;
 }
+.border-radius12{
+  border-radius: 12px;
+}
 .sizeh2{
   @include RobotoRegular;
   font-weight: bold;

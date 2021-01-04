@@ -150,6 +150,9 @@
 .color-blue-bg {
   background-color: #193393; }
 
+.color-yellow-bg {
+  background-color: #f9bb59; }
+
 .color-yellow {
   color: #f9bb59 !important; }
 
@@ -584,6 +587,9 @@
 .border-top-left-right {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px; }
+
+.border-radius12 {
+  border-radius: 12px; }
 
 .sizeh2 {
   font-family: 'Roboto-Regular';
