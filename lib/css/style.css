@@ -110,15 +110,18 @@
 /* Webfont: NVNLunchBox-Bold */
 @font-face {
   font-family: 'NVNLunchBox';
-  src: url("../fonts/NVNLuchBoxBold.woff2") format("woff2"), url("../fonts/NVNLuchBoxBold.otf") format("opentype");
+  src: url("../fonts/NVN LuchBox Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/NVN LuchBox Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NVN LuchBox Bold.woff") format("woff"), url("../fonts/NVN LuchBox Bold.woff2") format("woff2"), url("../fonts/NVN LuchBox Bold.ttf") format("truetype");
   /* Safari, Android, iOS */
   font-style: normal;
-  font-weight: bold;
   text-rendering: optimizeLegibility; }
 /* Webfont: NVNLunchBox-Light */
 @font-face {
   font-family: 'NVNLunchBoxLight';
-  src: url("../fonts/NVNLuchBoxLight.woff2") format("woff2"), url("../fonts/NVNLuchBoxLight.otf") format("opentype");
+  src: url("../fonts/NVN LuchBox Light.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/NVN LuchBox Light.eot?#iefix") format("embedded-opentype"), url("../fonts/NVN LuchBox Light.woff") format("woff"), url("../fonts/NVN LuchBox Light.woff2") format("woff2"), url("../fonts/NVN LuchBox Light.ttf") format("truetype");
   /* Safari, Android, iOS */
   font-style: normal;
   font-weight: normal;
@@ -126,7 +129,9 @@
 /* Webfont: NVNLunchBox-Regular */
 @font-face {
   font-family: 'NVNLunchBoxRegular';
-  src: url("../fonts/NVNLuchBoxRegular.woff2") format("woff2"), url("../fonts/NVNLuchBoxRegular.otf") format("opentype");
+  src: url("../fonts/NVN LuchBox Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/NVN LuchBox Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NVN LuchBox Regular.woff") format("woff"), url("../fonts/NVN LuchBox Regular.ttf") format("truetype");
   /* Safari, Android, iOS */
   font-style: normal;
   font-weight: normal;
@@ -153,14 +158,26 @@
 .color-yellow-bg {
   background-color: #f9bb59; }
 
+.color-gray-light {
+  background-color: #efefef; }
+
 .color-yellow {
   color: #f9bb59 !important; }
+
+.color-pink {
+  color: #ed559b; }
+
+.color-gray-bold {
+  color: #626262; }
 
 .color-dark-gary {
   background-color: #b7b7b7; }
 
 .fontweight600 {
   font-weight: 600; }
+
+.NVNLunchBoxRegular {
+  font-family: 'NVNLunchBoxRegular'; }
 
 /* Navbar */
 /* Blocks */
@@ -591,9 +608,13 @@
 .border-radius12 {
   border-radius: 12px; }
 
+.border-radius20 {
+  border-radius: 20px; }
+
 .sizeh2 {
-  font-family: 'Roboto-Regular';
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 100%; }
 
 /* Media */
 @media (max-width: 991.98px) {

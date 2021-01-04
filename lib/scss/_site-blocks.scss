@@ -566,7 +566,11 @@
 .border-radius12{
   border-radius: 12px;
 }
+.border-radius20{
+  border-radius: 20px;
+}
 .sizeh2{
-  @include RobotoRegular;
   font-weight: bold;
+  font-size: 2rem;
+  line-height: 100%;
 }

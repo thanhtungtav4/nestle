@@ -162,25 +162,32 @@
 /* Webfont: NVNLunchBox-Bold */
 @font-face {
   font-family: 'NVNLunchBox';
-  src: url('../fonts/NVNLuchBoxBold.woff2') format('woff2'), /* Modern Browsers */
-  url('../fonts/NVNLuchBoxBold.otf') format('opentype'); /* Safari, Android, iOS */
+  src: url('../fonts/NVN LuchBox Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/NVN LuchBox Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/NVN LuchBox Bold.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/NVN LuchBox Bold.woff2') format('woff2'), /* Modern Browsers */
+  url('../fonts/NVN LuchBox Bold.ttf') format('truetype'); /* Safari, Android, iOS */
   font-style: normal;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
 }
 /* Webfont: NVNLunchBox-Light */
 @font-face {
   font-family: 'NVNLunchBoxLight';
-  src: url('../fonts/NVNLuchBoxLight.woff2') format('woff2'), /* Modern Browsers */
-  url('../fonts/NVNLuchBoxLight.otf') format('opentype'); /* Safari, Android, iOS */
+  src: url('../fonts/NVN LuchBox Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/NVN LuchBox Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/NVN LuchBox Light.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/NVN LuchBox Light.woff2') format('woff2'), /* Modern Browsers */
+  url('../fonts/NVN LuchBox Light.ttf') format('truetype'); /* Safari, Android, iOS */
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
 /* Webfont: NVNLunchBox-Regular */@font-face {
   font-family: 'NVNLunchBoxRegular';
-  src: url('../fonts/NVNLuchBoxRegular.woff2') format('woff2'), /* Modern Browsers */
-  url('../fonts/NVNLuchBoxRegular.otf') format('opentype'); /* Safari, Android, iOS */
+  src: url('../fonts/NVN LuchBox Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/NVN LuchBox Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/NVN LuchBox Regular.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/NVN LuchBox Regular.ttf') format('truetype'); /* Safari, Android, iOS */
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -292,8 +299,17 @@ $color-pink-light: #efefef;
 .color-yellow-bg{
  background-color:   $color-yellow;
 }
+.color-gray-light{
+ background-color: $color-pink-light;
+}
 .color-yellow{
   color:  $color-yellow !important;
+}
+.color-pink{
+  color: $color-pink;
+}
+.color-gray-bold{
+  color:  $clor-gray-bold;
 }
 .color-dark-gary{
   background-color: $clor-gray-dark;
@@ -301,7 +317,9 @@ $color-pink-light: #efefef;
 .fontweight600{
   font-weight: 600;
 }
-
+.NVNLunchBoxRegular{
+  font-family: 'NVNLunchBoxRegular';
+}
 @mixin sizeh1{
   font-size: 2.5rem;
 }
