@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15c05553-5dcb-4a98-bef3-bb08713bb628" name="Default Changelist" comment="" />
+    <list default="true" id="15c05553-5dcb-4a98-bef3-bb08713bb628" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/van-dong-tich-cuc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/van-dong-tich-cuc/van-dong-tich-cuc-kien-thuc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/van-dong-tich-cuc/van-dong-tich-cuc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scss/_site-base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/_site-base.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,15 +37,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tap-thoi-quen-tot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/van-dong-tich-cuc" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\nestle\van-dong-tich-cuc" />
+      <recent name="C:\wamp64\www\nestle\tap-thoi-quen-tot" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\nestle\lib" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\nestle\tap-thoi-quen-tot" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,14 +69,7 @@
       <workItem from="1609205895027" duration="12825000" />
       <workItem from="1609292509194" duration="21001000" />
       <workItem from="1609380386347" duration="16476000" />
-      <workItem from="1609725326671" duration="19720000" />
-    </task>
-    <task id="LOCAL-00008" summary="init">
-      <created>1608870725959</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1608870725959</updated>
+      <workItem from="1609725326671" duration="24138000" />
     </task>
     <task id="LOCAL-00009" summary="init">
       <created>1608872151452</created>
@@ -405,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609752526747</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="init home page">
+      <created>1609753031306</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1609753031306</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,10 +430,10 @@
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2482" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1608959657164" />
-    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1609752525887">
+    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1609753030632">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609752525887" />
+    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609753030632" />
     <state x="2540" y="259" key="FileChooserDialogImpl" timestamp="1609232739309">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>

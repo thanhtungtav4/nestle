@@ -296,6 +296,9 @@ $color-pink-light: #efefef;
 .color-blue-bg{
   background-color: $color-blue;
 }
+.color-green-bg{
+  background-color: $color-green !important;
+}
 .color-yellow-bg{
  background-color:   $color-yellow;
 }
@@ -307,6 +310,9 @@ $color-pink-light: #efefef;
 }
 .color-pink{
   color: $color-pink;
+}
+.color-green{
+  color: $color-green;
 }
 .color-gray-bold{
   color:  $clor-gray-bold;
