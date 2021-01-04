@@ -17,7 +17,7 @@
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'RobotoBold';
   src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
   url('../fonts/Roboto-Bold.woff') format('woff');
   font-weight: bold;
@@ -241,6 +241,9 @@ $color-pink-light: #efefef;
 @mixin RobotoRegular{
   font-family: 'Roboto-Regular';
 }
+@mixin RobotoBold{
+  font-family: RobotoBold;
+}
 @mixin SizeTittleArialUnicodeMs{
   font-size: 3.4rem;
   font-weight: 700;
@@ -288,4 +291,7 @@ $color-pink-light: #efefef;
 }
 .color-dark-gary{
   background-color: $clor-gray-dark;
+}
+@mixin sizeh1{
+  font-size: 2.5rem;
 }

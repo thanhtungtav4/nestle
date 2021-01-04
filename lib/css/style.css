@@ -12,7 +12,7 @@
   font-style: italic;
   font-display: swap; }
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'RobotoBold';
   src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
@@ -521,6 +521,9 @@
   color: white;
   border-radius: 20px;
   font-size: 2rem; }
+.section-detail-content p {
+  color: #949494;
+  font-family: 'Roboto-Regular'; }
 
 .form-control-nt {
   border-radius: 20px;
@@ -541,9 +544,6 @@
 .color-blue {
   color: #193393 !important; }
 
-.color-blue {
-  color: #193393; }
-
 .bg-gray {
   background-color: #efefef; }
 
@@ -554,6 +554,14 @@
   border-top-right-radius: 20px;
   border-top-left-radius: 20px; }
 
+.sizeh2 {
+  font-family: 'Roboto-Regular';
+  font-weight: bold; }
+
 /* Media */
+@media (max-width: 991.98px) {
+  .mx-md-auto-mobile {
+    margin: auto;
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */

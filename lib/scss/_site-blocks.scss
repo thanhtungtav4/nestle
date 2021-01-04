@@ -352,7 +352,7 @@
   .text-tab-title-h4{
     font-size: 1.5rem;
     @include Roboto;
-    color: #949494;
+    color: $color-gray;
     color: $clor-gray-bold;
     width: 60%;
   }
@@ -485,7 +485,7 @@
   .category-name, .post-name{
     @include ArialUnicodeMsLight;
     font-weight: 600;
-    font-size: 2.5rem;
+    @include sizeh1;
     line-height: 100%;
     text-align: center;
     justify-content: center;
@@ -496,7 +496,12 @@
     border-radius: 20px;
     font-size: 2rem;
   }
+  p{
+    color: $color-gray;
+    @include RobotoRegular;
+  }
 }
+
 .form-control-nt{
   border-radius: 20px;
   padding: 5px 2rem;
@@ -516,9 +521,6 @@
 .color-blue {
   color: $color-blue !important;
 }
-.color-blue{
-  @include color-blue;
-}
 .bg-gray{
   background-color: $color-pink-light;
 }
@@ -527,4 +529,8 @@
 }
 .border-top-left-right{
   @include border-top-left-right;
+}
+.sizeh2{
+  @include RobotoRegular;
+  font-weight: bold;
 }
