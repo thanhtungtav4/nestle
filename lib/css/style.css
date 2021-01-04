@@ -147,11 +147,17 @@
 .color-pink-bg {
   background-color: #ed559b !important; }
 
+.color-blue-bg {
+  background-color: #193393; }
+
 .color-yellow {
   color: #f9bb59 !important; }
 
 .color-dark-gary {
   background-color: #b7b7b7; }
+
+.fontweight600 {
+  font-weight: 600; }
 
 /* Navbar */
 /* Blocks */
@@ -524,6 +530,31 @@
 .section-detail-content p {
   color: #949494;
   font-family: 'Roboto-Regular'; }
+.section-detail-content .ul-list-step li {
+  list-style: none;
+  padding-bottom: 1.1rem;
+  color: #949494;
+  font-family: 'Roboto-Regular'; }
+.section-detail-content .ul-list-step li:before {
+  background-color: #193393;
+  padding: 5px 13px;
+  border-radius: 50%;
+  max-width: 10px;
+  max-height: 10px;
+  margin-right: 0.5rem;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 600;
+  font-family: Roboto;
+  line-height: 100%; }
+.section-detail-content .ul-list-step li:nth-child(1):before {
+  content: '1'; }
+.section-detail-content .ul-list-step li:nth-child(2):before {
+  content: '2'; }
+.section-detail-content .ul-list-step li:nth-child(3):before {
+  content: '3'; }
+.section-detail-content .border-left-line {
+  border-left: 1.7px solid white; }
 
 .form-control-nt {
   border-radius: 20px;

@@ -500,6 +500,39 @@
     color: $color-gray;
     @include RobotoRegular;
   }
+  .ul-list-step{
+    li{
+      list-style: none;
+      padding-bottom: 1.1rem;
+      color: $color-gray;
+      @include RobotoRegular;
+    }
+    li:before{
+      background-color: $color-blue;
+      padding: 5px 13px;
+      border-radius: 50%;
+      max-width: 10px;
+      max-height: 10px;
+      margin-right: 0.5rem ;
+      font-size: 1.3rem;
+      color: white;
+      font-weight: 600;
+      font-family: Roboto;
+      line-height: 100%;
+    }
+    li:nth-child(1):before{
+      content: '1';
+    }
+    li:nth-child(2):before{
+      content: '2';
+    }
+    li:nth-child(3):before{
+      content: '3';
+    }
+  }
+  .border-left-line{
+    border-left: 1.7px solid white;
+  }
 }
 
 .form-control-nt{
