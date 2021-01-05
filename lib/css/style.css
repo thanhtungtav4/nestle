@@ -159,7 +159,7 @@
   background-color: #0baf4d !important; }
 
 .color-yellow-bg {
-  background-color: #f9bb59; }
+  background-color: #f9bb59 !important; }
 
 .color-light-blue-bg {
   background-color: #2b6bff !important; }
@@ -613,6 +613,11 @@
   color: #2b6bff !important; }
 .color-light-blue-all .ul-list-step li:before {
   background-color: #2b6bff; }
+
+.color-light-yellow-all h2, .color-light-yellow-all h1 {
+  color: #f9bb59 !important; }
+.color-light-yellow-all .ul-list-step li:before {
+  background-color: #f9bb59; }
 
 .form-control-nt {
   border-radius: 20px;

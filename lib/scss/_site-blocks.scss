@@ -570,7 +570,16 @@
     }
   }
 }
-
+.color-light-yellow-all{
+  h2, h1{
+    color: $color-yellow !important;
+  }
+  .ul-list-step{
+    li:before{
+      background-color: $color-yellow;
+    }
+  }
+}
 .form-control-nt{
   border-radius: 20px;
   padding: 5px 2rem;
