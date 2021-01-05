@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15c05553-5dcb-4a98-bef3-bb08713bb628" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ttqt-duy-tri-bua-an-gia-dinh/duy-tri-bua-an-gia-dinh-kien-thuc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttqt-duy-tri-bua-an-gia-dinh/duy-tri-bua-an-gia-dinh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttqt-duy-tri-bua-an-gia-dinh/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttqt-uong-du-nuoc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttqt-uong-du-nuoc/uong-du-nuoc-kien-thuc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttqt-uong-du-nuoc/uong-du-nuoc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/an-ngon-an-dung/an-ngon-an-dung-kien-thuc.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttqt-an-ngon-an-dung/an-ngon-an-dung-kien-thuc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/an-ngon-an-dung/an-ngon-an-dung.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttqt-an-ngon-an-dung/an-ngon-an-dung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/an-ngon-an-dung/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttqt-an-ngon-an-dung/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/_site-blocks.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/van-dong-tich-cuc/van-dong-tich-cuc-kien-thuc-moi-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttqt-van-dong-tich-cuc/van-dong-tich-cuc-kien-thuc-moi-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/van-dong-tich-cuc/van-dong-tich-cuc-kien-thuc.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttqt-van-dong-tich-cuc/van-dong-tich-cuc-kien-thuc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/van-dong-tich-cuc/van-dong-tich-cuc.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttqt-van-dong-tich-cuc/van-dong-tich-cuc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttqt-uong-du-nuoc/uong-du-nuoc.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttqt-uong-du-nuoc/uong-du-nuoc.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +65,7 @@
       <workItem from="1609292509194" duration="21001000" />
       <workItem from="1609380386347" duration="16476000" />
       <workItem from="1609725326671" duration="25752000" />
-      <workItem from="1609813771246" duration="11523000" />
-    </task>
-    <task id="LOCAL-00015" summary="init">
-      <created>1608954906370</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1608954906370</updated>
+      <workItem from="1609813771246" duration="12204000" />
     </task>
     <task id="LOCAL-00016" summary="init">
       <created>1608957837841</created>
@@ -423,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609829594206</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="init home page">
+      <created>1609831267033</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1609831267034</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,10 +426,10 @@
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2482" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609828927926" />
-    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1609829593455">
+    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1609831266299">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609829593455" />
+    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609831266299" />
     <state x="2540" y="259" key="FileChooserDialogImpl" timestamp="1609232739309">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
