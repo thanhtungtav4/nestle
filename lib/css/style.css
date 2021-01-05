@@ -161,11 +161,17 @@
 .color-yellow-bg {
   background-color: #f9bb59; }
 
+.color-light-blue-bg {
+  background-color: #2b6bff !important; }
+
 .color-gray-light {
   background-color: #efefef; }
 
 .color-yellow {
   color: #f9bb59 !important; }
+
+.color-light-blue {
+  color: #2b6bff !important; }
 
 .color-pink {
   color: #ed559b; }
@@ -312,6 +318,17 @@
     color: white;
     background-color: #2b6bff;
     line-height: 100%; }
+
+.slider-blue-light .title-owl {
+  color: #2b6bff;
+  line-height: 100%; }
+.slider-blue-light .description-owl {
+  color: #626262;
+  line-height: 100%; }
+.slider-blue-light .btn-view-more {
+  color: white;
+  background-color: #2b6bff;
+  line-height: 100%; }
 
 .border-top-line {
   border-top: 1.5px solid #c2c2c2; }

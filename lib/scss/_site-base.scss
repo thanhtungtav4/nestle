@@ -302,11 +302,17 @@ $color-pink-light: #efefef;
 .color-yellow-bg{
  background-color:   $color-yellow;
 }
+.color-light-blue-bg{
+  background-color:  $color-light-blue !important;
+}
 .color-gray-light{
  background-color: $color-pink-light;
 }
 .color-yellow{
   color:  $color-yellow !important;
+}
+.color-light-blue{
+  color:  $color-light-blue !important;
 }
 .color-pink{
   color: $color-pink;

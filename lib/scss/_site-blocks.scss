@@ -164,6 +164,21 @@
     line-height: 100%;
   }
 }
+.slider-blue-light{
+  .title-owl{
+    color: $color-light-blue;
+    line-height: 100%;
+  }
+  .description-owl{
+    color: $clor-gray-bold;
+    line-height: 100%;
+  }
+  .btn-view-more{
+    color: white;
+    background-color: $color-light-blue;
+    line-height: 100%;
+  }
+}
 .border-top-line{
   border-top: 1.5px solid #c2c2c2;
 }
