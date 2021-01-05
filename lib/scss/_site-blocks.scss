@@ -551,8 +551,8 @@
   }
 }
 .color-green-all{
-  h2{
-    color: $color-green;
+  h2, h1{
+    color: $color-green !important;
   }
   .ul-list-step{
     li:before{

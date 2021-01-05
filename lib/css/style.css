@@ -604,8 +604,8 @@
 .section-detail-content .border-left-line {
   border-left: 1.7px solid white; }
 
-.color-green-all h2 {
-  color: #0baf4d; }
+.color-green-all h2, .color-green-all h1 {
+  color: #0baf4d !important; }
 .color-green-all .ul-list-step li:before {
   background-color: #0baf4d; }
 
