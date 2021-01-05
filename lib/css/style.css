@@ -523,7 +523,8 @@
     font-family: 'Roboto-Regular';
     color: #949494;
     font-size: 1.3rem;
-    font-weight: 500; }
+    font-weight: 500;
+    line-height: 140%; }
 
 .section-all-post .row .col-md-4 .card {
   border-bottom-right-radius: 20px;
