@@ -609,6 +609,11 @@
 .color-green-all .ul-list-step li:before {
   background-color: #0baf4d; }
 
+.color-light-blue-all h2, .color-light-blue-all h1 {
+  color: #2b6bff !important; }
+.color-light-blue-all .ul-list-step li:before {
+  background-color: #2b6bff; }
+
 .form-control-nt {
   border-radius: 20px;
   padding: 5px 2rem;

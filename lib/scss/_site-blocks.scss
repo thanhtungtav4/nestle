@@ -560,6 +560,16 @@
     }
   }
 }
+.color-light-blue-all{
+  h2, h1{
+    color: $color-light-blue !important;
+  }
+  .ul-list-step{
+    li:before{
+      background-color: $color-light-blue;
+    }
+  }
+}
 
 .form-control-nt{
   border-radius: 20px;

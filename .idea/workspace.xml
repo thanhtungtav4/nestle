@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="15c05553-5dcb-4a98-bef3-bb08713bb628" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scss/_site-base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/_site-base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/_site-blocks.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttqt-an-ngon-an-dung/an-ngon-an-dung-kien-thuc.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttqt-an-ngon-an-dung/an-ngon-an-dung-kien-thuc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttqt-an-ngon-an-dung/an-ngon-an-dung.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttqt-an-ngon-an-dung/an-ngon-an-dung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttqt-duy-tri-bua-an-gia-dinh/duy-tri-bua-an-gia-dinh-kien-thuc.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttqt-duy-tri-bua-an-gia-dinh/duy-tri-bua-an-gia-dinh-kien-thuc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttqt-duy-tri-bua-an-gia-dinh/duy-tri-bua-an-gia-dinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttqt-duy-tri-bua-an-gia-dinh/duy-tri-bua-an-gia-dinh.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttqt-uong-du-nuoc/uong-du-nuoc-kien-thuc.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttqt-uong-du-nuoc/uong-du-nuoc-kien-thuc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttqt-uong-du-nuoc/uong-du-nuoc.html" beforeDir="false" afterPath="$PROJECT_DIR$/ttqt-uong-du-nuoc/uong-du-nuoc.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,14 +67,7 @@
       <workItem from="1609292509194" duration="21001000" />
       <workItem from="1609380386347" duration="16476000" />
       <workItem from="1609725326671" duration="25752000" />
-      <workItem from="1609813771246" duration="13479000" />
-    </task>
-    <task id="LOCAL-00017" summary="init">
-      <created>1608974745107</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1608974745107</updated>
+      <workItem from="1609813771246" duration="14251000" />
     </task>
     <task id="LOCAL-00018" summary="init">
       <created>1609132121588</created>
@@ -420,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609832324458</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="init home page">
+      <created>1609833619403</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1609833619403</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,22 +428,26 @@
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2482" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609828927926" />
-    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1609832323885">
+    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1609833618074">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609832323885" />
+    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609833618074" />
     <state x="2540" y="259" key="FileChooserDialogImpl" timestamp="1609232739309">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2540" y="259" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609232739309" />
-    <state x="2352" y="237" key="Vcs.Push.Dialog.v2" timestamp="1609832340534">
+    <state x="2352" y="237" key="Vcs.Push.Dialog.v2" timestamp="1609833623893">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2352" y="237" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609832340534" />
+    <state x="2352" y="237" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609833623893" />
     <state x="2012" y="92" width="1496" height="826" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609302865992">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2012" y="92" width="1496" height="826" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609302865992" />
+    <state x="2465" y="238" width="589" height="534" key="find.popup" timestamp="1609834301001">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2465" y="238" width="589" height="534" key="find.popup/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609834301001" />
     <state x="2536" y="406" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608798889881">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
