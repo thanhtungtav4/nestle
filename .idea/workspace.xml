@@ -2,94 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15c05553-5dcb-4a98-bef3-bb08713bb628" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/css/all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/fonts/css/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fonts/css/all.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scss/_site-base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/_site-base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.0.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.0.11.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.0.2.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.0.3.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.1.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.10.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.11.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.12.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.12.1.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.13.1.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.15.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.3.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.4.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.6.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.7.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.8.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.8.2.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-brands-400-5.9.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-duotone-900-5.0.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-duotone-900-5.0.3.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-duotone-900-5.0.7.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-duotone-900-5.0.9.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-duotone-900-5.1.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-duotone-900-5.10.1.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-duotone-900-5.10.2.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-duotone-900-5.11.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-duotone-900-5.11.1.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-duotone-900-5.12.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-duotone-900-5.2.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-duotone-900-5.3.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-duotone-900-5.4.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-duotone-900-5.9.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-light-300-5.0.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-light-300-5.0.3.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-light-300-5.0.7.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-light-300-5.0.9.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-light-300-5.1.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-light-300-5.10.1.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-light-300-5.10.2.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-light-300-5.11.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-light-300-5.11.1.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-light-300-5.12.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-light-300-5.15.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-light-300-5.2.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-light-300-5.3.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-light-300-5.4.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-light-300-5.8.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-light-300-5.9.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.0.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.0.3.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.0.5.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.0.7.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.0.9.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.1.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.10.1.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.10.2.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.11.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.11.1.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.12.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.15.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.2.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.3.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.4.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.6.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.8.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-regular-400-5.9.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-solid-900-5.0.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-solid-900-5.0.3.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-solid-900-5.0.7.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-solid-900-5.0.9.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-solid-900-5.1.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-solid-900-5.10.1.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-solid-900-5.10.2.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-solid-900-5.11.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-solid-900-5.11.1.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-solid-900-5.12.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-solid-900-5.15.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-solid-900-5.2.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-solid-900-5.3.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-solid-900-5.4.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-solid-900-5.6.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-solid-900-5.8.0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webfonts/pro-fa-solid-900-5.9.0.woff2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/van-dong-tich-cuc/van-dong-tich-cuc-kien-thuc-moi-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/van-dong-tich-cuc/van-dong-tich-cuc-kien-thuc-moi-detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,14 +64,7 @@
       <workItem from="1609292509194" duration="21001000" />
       <workItem from="1609380386347" duration="16476000" />
       <workItem from="1609725326671" duration="25752000" />
-      <workItem from="1609813771246" duration="9465000" />
-    </task>
-    <task id="LOCAL-00013" summary="init">
-      <created>1608953140316</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1608953140316</updated>
+      <workItem from="1609813771246" duration="9794000" />
     </task>
     <task id="LOCAL-00014" summary="init">
       <created>1608954024803</created>
@@ -497,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609822798706</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="init home page">
+      <created>1609829150771</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1609829150771</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,18 +425,18 @@
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2482" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609828927926" />
-    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1609822797849">
+    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1609829149871">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609822797849" />
+    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609829149871" />
     <state x="2540" y="259" key="FileChooserDialogImpl" timestamp="1609232739309">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2540" y="259" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609232739309" />
-    <state x="2352" y="237" key="Vcs.Push.Dialog.v2" timestamp="1609822804488">
+    <state x="2352" y="237" key="Vcs.Push.Dialog.v2" timestamp="1609829154607">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2352" y="237" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609822804488" />
+    <state x="2352" y="237" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609829154607" />
     <state x="2012" y="92" width="1496" height="826" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609302865992">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
