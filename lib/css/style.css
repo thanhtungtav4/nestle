@@ -619,6 +619,11 @@
 .color-light-yellow-all .ul-list-step li:before {
   background-color: #f9bb59; }
 
+.color-pink-all h2, .color-pink-all h1 {
+  color: #f9bb59 !important; }
+.color-pink-all .ul-list-step li:before {
+  background-color: #f9bb59; }
+
 .form-control-nt {
   border-radius: 20px;
   padding: 5px 2rem;
