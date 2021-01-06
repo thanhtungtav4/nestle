@@ -582,11 +582,11 @@
 }
 .color-pink-all{
   h2, h1{
-    color: $color-yellow !important;
+    color: $color-pink !important;
   }
   .ul-list-step{
     li:before{
-      background-color: $color-yellow;
+      background-color: $color-pink;
     }
   }
 }
