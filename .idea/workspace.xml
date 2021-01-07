@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15c05553-5dcb-4a98-bef3-bb08713bb628" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cate-choi-ma-hoc/can-do-dinh-duong/can-do-dinh-duong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cate-choi-ma-hoc/index/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cate-day-va-hoc/giao-an-binh-duong/giao-an-dinh-duong-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/cate-day-va-hoc/giao-an-binh-duong/giao-an-dinh-duong-detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +33,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cate-day-va-hoc/giao-an-binh-duong" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cate-choi-ma-hoc/can-do-dinh-duong" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\nestle\cate-choi-ma-hoc\can-do-dinh-duong" />
       <recent name="C:\wamp64\www\nestle\cate-day-va-hoc\giao-an-binh-duong" />
       <recent name="C:\wamp64\www\nestle\cate-day-va-hoc\trai-nghiem-kien-thuc" />
       <recent name="C:\wamp64\www\nestle\ttqt-duy-tri-bua-an-gia-dinh" />
       <recent name="C:\wamp64\www\nestle\ttqt-uong-du-nuoc" />
-      <recent name="C:\wamp64\www\nestle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\nestle\cate-choi-ma-hoc\index" />
       <recent name="C:\wamp64\www\nestle\lib" />
     </key>
   </component>
@@ -70,14 +72,7 @@
       <workItem from="1609725326671" duration="25752000" />
       <workItem from="1609813771246" duration="20532000" />
       <workItem from="1609898301690" duration="3555000" />
-      <workItem from="1609984990669" duration="5514000" />
-    </task>
-    <task id="LOCAL-00027" summary="init">
-      <created>1609206676549</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1609206676549</updated>
+      <workItem from="1609984990669" duration="6234000" />
     </task>
     <task id="LOCAL-00028" summary="init">
       <created>1609224472003</created>
@@ -415,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609989787336</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="init home page">
+      <created>1609991179611</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1609991179611</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,22 +433,22 @@
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2482" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609828927926" />
-    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1609989786421">
+    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1609991178868">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609989786421" />
+    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609991178868" />
     <state x="2540" y="259" key="FileChooserDialogImpl" timestamp="1609232739309">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2540" y="259" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609232739309" />
-    <state x="2352" y="237" key="Vcs.Push.Dialog.v2" timestamp="1609989791309">
+    <state x="2352" y="237" key="Vcs.Push.Dialog.v2" timestamp="1609991185132">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2352" y="237" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609989791309" />
-    <state x="2012" y="92" width="1496" height="826" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609302865992">
+    <state x="2352" y="237" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609991185132" />
+    <state x="2012" y="92" width="1496" height="826" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609991449652">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2012" y="92" width="1496" height="826" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609302865992" />
+    <state x="2012" y="92" width="1496" height="826" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609991449652" />
     <state x="2465" y="238" width="589" height="534" key="find.popup" timestamp="1609834301001">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
