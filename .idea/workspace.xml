@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="15c05553-5dcb-4a98-bef3-bb08713bb628" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cate-day-va-hoc/trai-nghiem-kien-thuc/trac-nghiem-kien-thuc-moi-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/cate-day-va-hoc/trai-nghiem-kien-thuc/trac-nghiem-kien-thuc-moi-detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +69,8 @@
       <workItem from="1609380386347" duration="16476000" />
       <workItem from="1609725326671" duration="25752000" />
       <workItem from="1609813771246" duration="20532000" />
-      <workItem from="1609898301690" duration="925000" />
-    </task>
-    <task id="LOCAL-00023" summary="init">
-      <created>1609151860044</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1609151860044</updated>
+      <workItem from="1609898301690" duration="3555000" />
+      <workItem from="1609984990669" duration="1030000" />
     </task>
     <task id="LOCAL-00024" summary="init">
       <created>1609153366798</created>
@@ -413,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609839551250</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="init home page">
+      <created>1609901165085</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1609901165085</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,18 +431,18 @@
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2482" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609828927926" />
-    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1609839550273">
+    <state x="2385" y="73" key="CommitChangelistDialog2" timestamp="1609901164250">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609839550273" />
+    <state x="2385" y="73" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609901164250" />
     <state x="2540" y="259" key="FileChooserDialogImpl" timestamp="1609232739309">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2540" y="259" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609232739309" />
-    <state x="2352" y="237" key="Vcs.Push.Dialog.v2" timestamp="1609839554732">
+    <state x="2352" y="237" key="Vcs.Push.Dialog.v2" timestamp="1609901169771">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2352" y="237" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609839554732" />
+    <state x="2352" y="237" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609901169771" />
     <state x="2012" y="92" width="1496" height="826" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609302865992">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
@@ -449,10 +451,10 @@
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2465" y="238" width="589" height="534" key="find.popup/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609834301001" />
-    <state x="2536" y="406" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608798889881">
+    <state x="2536" y="406" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1609985098093">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2536" y="406" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1608798889881" />
+    <state x="2536" y="406" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609985098093" />
     <state x="2416" y="233" key="run.anything.popup" timestamp="1609735144166">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
