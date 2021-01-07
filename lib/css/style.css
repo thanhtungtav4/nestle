@@ -655,6 +655,10 @@
 .RobotoRegular {
   font-family: "Roboto-Regular" !important; }
 
+.RobotoBold {
+  font-family: "RobotoBold" !important;
+  font-weight: bold; }
+
 .border-top-left-right {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px; }
