@@ -194,6 +194,12 @@
 .fontweight600 {
   font-weight: 600; }
 
+.fontweight500 {
+  font-weight: 500 !important; }
+
+.size4rem {
+  font-size: 4rem !important; }
+
 .NVNLunchBoxRegular {
   font-family: 'NVNLunchBoxRegular'; }
 
