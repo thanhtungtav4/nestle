@@ -629,3 +629,18 @@
   font-size: 2rem;
   line-height: 100%;
 }
+.w-50px{
+  max-width: 40px;
+  height: auto;
+}
+.quiz-h4{
+  @include ArialUnicodeMsBold;
+  font-weight: bold;
+  font-size: 2rem;
+  color: $clor-gray-bold;
+}
+.quiz-h2{
+  color: $clor-gray-bold;
+  font-size: 1.1rem;
+  font-family: 'Myriad Pro';
+}

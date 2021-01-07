@@ -36,6 +36,12 @@
   font-style: italic;
   font-display: swap; }
 @font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/MyriadPro-Bold.woff2") format("woff2"), url("../fonts/MyriadPro-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
   font-family: 'Roboto Condensed';
   src: url("../fonts/RobotoCondensed-Italic.woff2") format("woff2"), url("../fonts/RobotoCondensed-Italic.woff") format("woff");
   font-weight: normal;
@@ -663,6 +669,22 @@
   font-weight: bold;
   font-size: 2rem;
   line-height: 100%; }
+
+.w-50px {
+  max-width: 40px;
+  height: auto; }
+
+.quiz-h4 {
+  font-family: 'NVNLunchBox';
+  font-weight: 500;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #626262; }
+
+.quiz-h2 {
+  color: #626262;
+  font-size: 1.1rem;
+  font-family: 'Myriad Pro'; }
 
 /* Media */
 @media (max-width: 991.98px) {
