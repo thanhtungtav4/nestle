@@ -166,19 +166,42 @@
         </div>
       </div>
       <div class="row bg-gray">
-        <div class="col-10  offset-1 mx-auto text-center py-5">
+        <div class="col-11  offset-1 mx-auto text-center py-5">
           <div class="text-center">
             <h2 class="sizeh2 text-uppercase mt-4 mb-3 RobotoRegular">hướng dẫn</h2>
             <p>Chọn nhóm tuổi phù hợp và nhập vào các chỉ số bên dưới</p>
             <form class="form">
-              <div class="inputGroup">
-                <input id="radio1" name="radio" type="radio"/>
-                <label for="radio1">Yes</label>
-              </div>
-              <div class="inputGroup">
-                <input id="radio2" name="radio" type="radio"/>
-                <label for="radio2">No</label>
-              </div>
+              <label>
+                <input type="radio" name="demo" class="card-input-element d-none" id="demo1" checked>
+                <div class="card card-body  d-flex flex-row justify-content-between align-items-center card-queue">
+                  <div class="d-flex justify-content-center bd-highlight mb-3">
+                    <div class="p-2 bd-highlight">
+                      <img src="../../lib/images/man.png" class="img-fluid w-75">
+                    </div>
+
+                    <div class="p-2 bd-highlight">
+                      <p class="NVNLunchBoxRegular">TRẺ EM </br>
+                        (5-19 TUỔI)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </label>
+              <label class="mt-3">
+                <input type="radio" name="demo" class="card-input-element d-none" value="demo2">
+                <div class="card card-body  d-flex flex-row justify-content-between align-items-center card-queue">
+                  <div class="d-flex justify-content-center bd-highlight mb-3">
+                    <div class="p-2 bd-highlight">
+                      <img src="../../lib/images/girl.png" class="img-fluid w-75">
+                    </div>
+
+                    <div class="p-2 bd-highlight">
+                      <p class="NVNLunchBoxRegular">NGƯỜI LỚN </br>
+                        (>19 TUỔI)</p>
+                    </div>
+                  </div>
+                </div>
+              </label>
             </form>
             <div class="row">
               <div class="col-md-11 offset-1 mx-auto">
@@ -432,7 +455,19 @@
   });
 </script>
 <!--onlypage-->
+<script>
+  //Match title height
+  function MatchHeight() {
+    $('.card-queue')
+            .matchHeight({})
+    ;
+  }
 
+  //Functions that run when all HTML is loaded
+  $(document).ready(function() {
+    MatchHeight();
+  });
+</script>
 <!--onlypage-->
 </body>
 </html>
