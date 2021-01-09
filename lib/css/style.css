@@ -700,11 +700,11 @@
   bottom: 4.5rem !important; }
 
 .card-input-element + .card {
-  color: var(--primary);
   -webkit-box-shadow: none;
   box-shadow: none;
   border: 2px solid transparent;
-  border-radius: 4px; }
+  border-radius: 4px;
+  background: #bcbcbc; }
 
 .card-input-element + .card:hover {
   cursor: pointer; }
@@ -729,6 +729,15 @@
   to {
     opacity: 1;
     transform: rotateZ(0deg); } }
+.card-queue .card-queue-name {
+  font-size: 2rem;
+  font-family: 'NVNLunchBox';
+  font-weight: 500;
+  color: white;
+  font-weight: bold;
+  line-height: 100%;
+  min-width: 135px; }
+
 /* Media */
 @media (max-width: 991.98px) {
   .mx-md-auto-mobile {
