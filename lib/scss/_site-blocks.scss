@@ -735,3 +735,11 @@
     display: inline;
   }
 }
+.cssheight{
+  max-height: 32px;
+}
+.col-border-left-right{
+  .col:not(:first-child){
+    border-left:2px solid white;
+  }
+}
