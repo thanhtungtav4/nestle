@@ -755,6 +755,19 @@
   .list-style-none li span {
     color: #f9bb59; }
 
+.ul-list-step-none {
+  display: table-cell; }
+  .ul-list-step-none li {
+    list-style: none;
+    font-family: 'Roboto-Regular';
+    color: #626262; }
+  .ul-list-step-none li:before {
+    content: url("../../lib/images/circle-one.png");
+    padding-right: 10px;
+    line-height: 150%;
+    vertical-align: middle;
+    display: inline; }
+
 /* Media */
 @media (max-width: 991.98px) {
   .mx-md-auto-mobile {

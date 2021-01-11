@@ -720,3 +720,18 @@
     font-weight: 500;
   }
 }
+.ul-list-step-none{
+  display: table-cell;
+  li {
+    list-style: none;
+    @include RobotoRegular;
+    color: $clor-gray-bold;
+  }
+  li:before{
+    content: url("../../lib/images/circle-one.png");
+    padding-right: 10px;
+    line-height: 150%;
+    vertical-align: middle;
+    display: inline;
+  }
+}
