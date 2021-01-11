@@ -742,7 +742,12 @@
   min-width: 135px; }
 
 .list-style-none li {
-  list-style: none; }
+  list-style: none;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-weight: 500; }
+  .list-style-none li span {
+    color: #f9bb59; }
 
 /* Media */
 @media (max-width: 991.98px) {
