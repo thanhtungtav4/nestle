@@ -6,7 +6,7 @@
       <change beforePath="$PROJECT_DIR$/cate-choi-ma-hoc/can-do-dinh-duong/can-do-dinh-duong-bmi.html" beforeDir="false" afterPath="$PROJECT_DIR$/cate-choi-ma-hoc/can-do-dinh-duong/can-do-dinh-duong-bmi.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/_site-blocks.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scss/_site-base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/_site-base.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +78,7 @@
       <workItem from="1610071666986" duration="5126000" />
       <workItem from="1610114215917" duration="881000" />
       <workItem from="1610158650444" duration="4542000" />
+      <workItem from="1610329137486" duration="2471000" />
     </task>
     <task id="LOCAL-00034" summary="init home page">
       <created>1609293485645</created>

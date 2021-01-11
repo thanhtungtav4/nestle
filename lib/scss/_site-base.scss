@@ -330,7 +330,7 @@ $color-pink-light: #efefef;
   color: $color-green !important;
 }
 .color-gray-bold{
-  color:  $clor-gray-bold;
+  color:  $clor-gray-bold !important;
 }
 .color-dark-gary{
   background-color: $clor-gray-dark;
@@ -340,6 +340,9 @@ $color-pink-light: #efefef;
 }
 .fontweight500{
   font-weight: 500 !important;
+}
+.size3rem{
+  font-size: 3rem !important;
 }
 .size4rem{
   font-size: 4rem !important;

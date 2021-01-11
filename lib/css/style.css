@@ -186,7 +186,7 @@
   color: #0baf4d !important; }
 
 .color-gray-bold {
-  color: #626262; }
+  color: #626262 !important; }
 
 .color-dark-gary {
   background-color: #b7b7b7; }
@@ -196,6 +196,9 @@
 
 .fontweight500 {
   font-weight: 500 !important; }
+
+.size3rem {
+  font-size: 3rem !important; }
 
 .size4rem {
   font-size: 4rem !important; }
