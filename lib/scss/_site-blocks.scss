@@ -803,3 +803,25 @@
     background: unset;
    }
 }
+.section-seach-banner{
+  .border-top-bottom-right-radius{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .form-control-search-inline{
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 600;
+    color: $color-dark-gray;
+  }
+  .line-text{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    span{
+      background:$color-pink-light;
+      padding:0 10px;
+    }
+  }
+}
