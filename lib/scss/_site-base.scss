@@ -216,6 +216,7 @@ $color-light-cream:#f0f0f0;
 $color-dark-gray:#bcbcbc;
 $color-dark-gray-light:#f0f0f0;
 $color-pink-light: #efefef;
+$color-active-form:#7f7f7f;
 
 //gen hex color
 @mixin color-blue {
@@ -360,3 +361,8 @@ $color-pink-light: #efefef;
   width: 25px;
   height: auto;
 }
+.bg-form-text{
+  background-color: $color-active-form;
+}
+
+

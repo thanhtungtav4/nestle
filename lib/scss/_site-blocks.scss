@@ -779,3 +779,27 @@
     background-repeat: no-repeat;
   }
 }
+.section-contact{
+  .custom-control-label:before {
+    top: unset;
+    width: 2rem;
+    left: -2.5rem;
+    height: 2rem;
+    background-color: #dee2e600;
+    border: 1.5px solid $color-active-form;
+  }
+  .form-control, .custom-control-label {
+    @include RobotoRegular;
+  }
+  b{
+    color: $color-active-form;
+    font-family: Roboto-Regular;
+  }
+  .custom-control-input:checked~.custom-control-label:before {
+    color: $color-active-form;
+    background-color: $color-active-form;
+  }
+  .custom-radio .custom-control-input:checked~.custom-control-label:after {
+    background: unset;
+   }
+}
