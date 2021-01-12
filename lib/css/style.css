@@ -796,6 +796,14 @@
   font-weight: 600;
   padding-top: 10px; }
 
+.section-seach-post .card-title {
+  color: #949494; }
+.section-seach-post .img-fluid-bg {
+  background-position: center;
+  border-radius: unset;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 /* Media */
 @media (max-width: 991.98px) {
   .mx-md-auto-mobile {

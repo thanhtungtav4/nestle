@@ -768,3 +768,14 @@
     padding-top: 10px;
   }
 }
+.section-seach-post{
+  .card-title{
+    color: $color-gray;
+  }
+  .img-fluid-bg{
+    background-position: center;
+    border-radius: unset;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
