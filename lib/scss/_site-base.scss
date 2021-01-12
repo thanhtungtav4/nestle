@@ -350,6 +350,9 @@ $color-pink-light: #efefef;
 .NVNLunchBoxRegular{
   font-family: 'NVNLunchBoxRegular';
 }
+.ArialUnicodeMsBold{
+  @include ArialUnicodeMsBold
+}
 @mixin sizeh1{
   font-size: 2.3rem;
 }

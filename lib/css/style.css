@@ -206,6 +206,10 @@
 .NVNLunchBoxRegular {
   font-family: 'NVNLunchBoxRegular'; }
 
+.ArialUnicodeMsBold {
+  font-family: 'NVNLunchBox';
+  font-weight: 500; }
+
 .w-25px {
   width: 25px;
   height: auto; }
@@ -781,6 +785,16 @@
 
 .col-border-left-right .col:not(:first-child) {
   border-left: 2px solid white; }
+
+.section-action-seach .form-control-search-inline {
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 600;
+  color: #bcbcbc; }
+.section-action-seach .nt-seach-btn {
+  font-size: 1.5rem;
+  line-height: 100%;
+  font-weight: 600;
+  padding-top: 10px; }
 
 /* Media */
 @media (max-width: 991.98px) {

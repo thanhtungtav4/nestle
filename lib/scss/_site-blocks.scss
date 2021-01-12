@@ -755,3 +755,16 @@
     border-left:2px solid white;
   }
 }
+.section-action-seach{
+  .form-control-search-inline{
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 600;
+    color: $color-dark-gray;
+  }
+  .nt-seach-btn{
+    font-size: 1.5rem;
+    line-height: 100%;
+    font-weight: 600;
+    padding-top: 10px;
+  }
+}
