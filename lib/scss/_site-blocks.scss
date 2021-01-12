@@ -554,6 +554,18 @@
     li:nth-child(6):before{
       content: '6';
     }
+    li:nth-child(7):before{
+      content: '7';
+    }
+    li:nth-child(8):before{
+      content: '8';
+    }
+    li:nth-child(9):before{
+      content: '9';
+    }
+    li:nth-child(10):before{
+      content: '10';
+    }
   }
   .border-left-line{
     border-left: 1.7px solid white;

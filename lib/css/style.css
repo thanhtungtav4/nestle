@@ -622,6 +622,14 @@
   content: '5'; }
 .section-detail-content .ul-list-step li:nth-child(6):before {
   content: '6'; }
+.section-detail-content .ul-list-step li:nth-child(7):before {
+  content: '7'; }
+.section-detail-content .ul-list-step li:nth-child(8):before {
+  content: '8'; }
+.section-detail-content .ul-list-step li:nth-child(9):before {
+  content: '9'; }
+.section-detail-content .ul-list-step li:nth-child(10):before {
+  content: '10'; }
 .section-detail-content .border-left-line {
   border-left: 1.7px solid white; }
 
