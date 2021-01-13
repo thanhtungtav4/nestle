@@ -842,6 +842,42 @@
     background: #efefef;
     padding: 0 10px; }
 
+.section-game .question_box {
+  border: 1.5px solid #ed559b;
+  border-radius: 10px; }
+.section-game .reply_box_number {
+  max-width: 35px;
+  max-height: 35px;
+  background-color: #b6b6b6;
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+  text-align: center; }
+.section-game .reply_a:before {
+  content: 'A'; }
+.section-game .reply_b:before {
+  content: 'B'; }
+.section-game .reply_c:before {
+  content: 'C'; }
+.section-game .reply_d:before {
+  content: 'D'; }
+.section-game .reply_e:before {
+  content: 'E'; }
+.section-game .reply_f:before {
+  content: 'F'; }
+.section-game .bg_reply_box {
+  background-color: #eaeaea;
+  border-radius: 10px; }
+.section-game .reply_question {
+  margin-bottom: unset;
+  color: #949494;
+  font-family: Roboto-Regular; }
+.section-game .active {
+  background-color: #f3dce7; }
+  .section-game .active .reply_box_number {
+    background-color: #ed559b; }
+
 /* Media */
 @media (max-width: 991.98px) {
   .mx-md-auto-mobile {
