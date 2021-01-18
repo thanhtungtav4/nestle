@@ -36,7 +36,8 @@
         <div class="col-md-4">
           <div class="logo-brand justify-content-center text-center text-md-left">
             <img src="lib/images/logo-ddhd.png" class="img-fluid w-xs-75 w-md-100 pl-md-0 p-xs-2 d-md-block d-none" />
-            <img src="lib/images/logo-mobile.png" class="img-fluid pl-5 pr-5 d-md-none d-block mx-auto text-center" />
+            <img src="lib/images/logo-mobile-new.png" class="logo-mobile-img img-fluid pl-5 pr-5 d-md-none d-block mx-auto text-center" />
+
           </div>
         </div>
         <div class="col-md-8 d-none d-md-block">
@@ -59,22 +60,22 @@
       </div>
     </div>
   </header>
-  <nav class="navbar navbar-expand-lg nav-mobile-custome">
+  <nav class="navbar navbar-expand-lg nav-mobile-custome margin-top-logo">
     <div class="container">
-      <div class="row w-100 mx-auto ">
-        <div class="col-2 p-0 border-bottom-nt">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav1" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="" role="button"><i class="fas fa-bars"></i></span>
-          </button>
-        </div>
-        <div class="col-10 p-0 border-bottom-nt">
-          <form class="">
-          <div class="input-group rounded field-input">
-            <input type="search" class="form-control form-control-custome rounded" aria-label="Search"
-                   aria-describedby="search-addon" />
-            <span></span>
+      <div class="row  w-100 mx-auto ">
+        <div class="col-12">
+          <div class="d-flex  justify-content-between bd-highlight border-bottom-nt">
+            <div class="bd-highlight">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="" role="button"><i class="fas fa-bars color-blue"></i></span>
+              </button>
+            </div>
+            <div class="bd-highlight">
+              <button type="button" class="btn btn-seach-action" data-toggle="modal" data-target="#ModalSeach">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
           </div>
-          </form>
         </div>
       </div>
       <div class="collapse navbar-collapse" id="main_nav1">
@@ -421,5 +422,24 @@
   });
 </script>
 <!--onlypage-->
+
+
+<!-- Modal all page you copy to all *.html-->
+<div class="modal fade" id="ModalSeach" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <form class=" my-2 my-lg-0">
+          <div class="input-group">
+            <input type="search" class="form-control rounded p-2 mr-3" placeholder="Nhập nội dung tìm kiếm" aria-label="Search"
+                   aria-describedby="search-addon" />
+            <button type="button" class="btn color-pink-bg ArialUnicodeMsBold text-white text-uppercase">Tìm kiếm</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
 </body>
 </html>

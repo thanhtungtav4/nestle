@@ -886,40 +886,18 @@
     }
   }
 }
-.field-input {
-  text-align: center;
-  input {
-    text-align: left;
-    border-bottom: 1px solid rgb(160, 160, 160);
-    width: auto;
-    font-family: Roboto-Regular;
-    transition: .5s;
-    &:focus {
-      outline: none;
-      border-color: #212121;
-      transition: .5s;
-    }
-  }
-  .form-control-custome{
-    border-top: unset;
-    border-left: unset;
-    border-right: unset;
-    border-bottom:unset;
-    padding: 0;
-  }
-  span:before {
-    content: '';
-    cursor: pointer;
-    position: relative;
-    font-family: 'Font Awesome 5 Pro';
-    top: 10%;
-    bottom: 10%;
-    font-weight: bold;
-    color: $color-gray;
-    font-size: 1.3rem;
-  }
-
+.btn-seach-action{
+  background-color: unset;
 }
 .border-bottom-nt{
   border-bottom: 1px solid #a0a0a0;
+}
+.logo-mobile-img{
+  padding: 3px 3px 5px 3px;
+  border-radius: 17px;
+  filter: drop-shadow(0.487px 3.97px 3.5px rgba(165,165,165,0.17));
+  background-color: white;
+}
+.fa-search{
+  @include color-breadcrumb;
 }
