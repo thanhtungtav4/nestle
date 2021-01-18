@@ -917,7 +917,7 @@ body.offcanvas-active{
   left: 0;
   opacity:0;
   visibility:hidden;
-  background-color: rgba(34, 34, 34, 0.6);
+  background-color: #ffffff40;
   transition:opacity .2s linear, visibility .1s, width 1s ease-in;
 }
 .screen-overlay.show {
@@ -925,4 +925,9 @@ body.offcanvas-active{
   opacity:1;
   width:100%;
   visibility:visible;
+}
+.mobile-offcanvas{
+  background-color: $lavender;
+  border-top-right-radius: 40px !important;
+  border-bottom-left-radius: 40px !important;
 }

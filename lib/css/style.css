@@ -919,7 +919,7 @@ body.offcanvas-active {
   left: 0;
   opacity: 0;
   visibility: hidden;
-  background-color: rgba(34, 34, 34, 0.6);
+  background-color: #ffffff40;
   transition: opacity .2s linear, visibility .1s, width 1s ease-in; }
 
 .screen-overlay.show {
@@ -928,7 +928,16 @@ body.offcanvas-active {
   width: 100%;
   visibility: visible; }
 
+.mobile-offcanvas {
+  background-color: #9361a7;
+  border-top-right-radius: 40px !important;
+  border-bottom-left-radius: 40px !important; }
+
 /* Media */
+@media (max-width: 420px) {
+  .logo-mobile-img {
+    width: 74%;
+    border-radius: 9px; } }
 @media (max-width: 767.98px) {
   .nav-mobile-custome {
     padding-top: 0;
@@ -946,21 +955,42 @@ body.offcanvas-active {
 
   .mobile-offcanvas {
     visibility: hidden;
-    transform: translateX(-100%);
+    transform: translateY(-100%);
     border-radius: 0;
     display: block;
     position: fixed;
-    top: 0;
+    top: 68px;
     left: 0;
-    height: 100%;
+    height: auto;
     z-index: 1200;
     width: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
     transition: visibility .2s ease-in-out, transform .2s ease-in-out; }
 
+  .mobile-offcanvas .navbar-nav .dropdown-toggle:after {
+    float: right;
+    margin-right: 6px; }
+  .mobile-offcanvas .navbar-nav .nav-item {
+    border-bottom: 1px solid #ffffff4a; }
+    .mobile-offcanvas .navbar-nav .nav-item .nav-link {
+      color: white !important;
+      font-family: 'Roboto-Regular';
+      font-weight: 300;
+      font-size: 1rem; }
+    .mobile-offcanvas .navbar-nav .nav-item .dropdown-menu.show {
+      background-color: unset;
+      border: unset; }
+      .mobile-offcanvas .navbar-nav .nav-item .dropdown-menu.show li a {
+        color: white !important;
+        font-family: 'Roboto-Regular';
+        font-weight: 300; }
+      .mobile-offcanvas .navbar-nav .nav-item .dropdown-menu.show li a:before {
+        content: "\f005";
+        font-family: 'Font Awesome 5 Pro'; }
+
   .mobile-offcanvas.show {
     visibility: visible;
-    transform: translateX(0); } }
+    transform: translateY(0); } }
 
 /*# sourceMappingURL=style.css.map */
