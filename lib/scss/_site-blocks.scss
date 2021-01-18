@@ -900,13 +900,26 @@
       transition: .5s;
     }
   }
+  .form-control-custome{
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    border-bottom:unset;
+    padding: 0;
+  }
   span:before {
     content: '';
     cursor: pointer;
     position: relative;
     font-family: 'Font Awesome 5 Pro';
-    top: 20%;
-    right: 1.5rem;
-    bottom: 20%;
+    top: 10%;
+    bottom: 10%;
+    font-weight: bold;
+    color: $color-gray;
+    font-size: 1.3rem;
   }
+
+}
+.border-bottom-nt{
+  border-bottom: 1px solid #a0a0a0;
 }
