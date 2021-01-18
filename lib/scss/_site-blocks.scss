@@ -54,7 +54,6 @@
 .title-owl{
   @include ArialUnicodeMs;
   @include SizeTittleArialUnicodeMs;
-  line-height: 100%;
 }
 .description-owl{
   @include Roboto;
@@ -240,6 +239,40 @@
     }
     .text-nutri-title{
       color: $color-yellow;
+    }
+  }
+  @include media-breakpoint-down(md){
+    .item1{
+      .text-nutri-description{
+        background: $color-blue;
+      }
+      .text-nutri-title{
+        color: $color-blue ;
+      }
+    }
+    .item2{
+      .text-nutri-description{
+        background: $color-light-blue;
+      }
+      .text-nutri-title{
+        color: $color-light-blue;
+      }
+    }
+    .item3{
+      .text-nutri-description{
+        background: $color-green;
+      }
+      .text-nutri-title{
+        color: $color-green;
+      }
+    }
+    .item4{
+      .text-nutri-description{
+        background: $color-yellow;
+      }
+      .text-nutri-title{
+        color: $color-yellow;
+      }
     }
   }
 }
