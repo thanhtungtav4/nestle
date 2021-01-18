@@ -84,8 +84,8 @@
               font-weight: 300;
             }
             a:before{
-              content: "\f005";
-              font-family: 'Font Awesome 5 Pro';
+              content: url("../../lib/images/star-solid.svg");
+              padding-right: 0.3rem;
             }
           }
         }

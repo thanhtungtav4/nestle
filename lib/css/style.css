@@ -986,8 +986,8 @@ body.offcanvas-active {
         font-family: 'Roboto-Regular';
         font-weight: 300; }
       .mobile-offcanvas .navbar-nav .nav-item .dropdown-menu.show li a:before {
-        content: "\f005";
-        font-family: 'Font Awesome 5 Pro'; }
+        content: url("../../lib/images/star-solid.svg");
+        padding-right: 0.3rem; }
 
   .mobile-offcanvas.show {
     visibility: visible;
