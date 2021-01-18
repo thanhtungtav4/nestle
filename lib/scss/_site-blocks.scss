@@ -886,3 +886,26 @@
     }
   }
 }
+.field-input {
+  text-align: center;
+  input {
+    text-align: left;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    width: auto;
+    font-family: Roboto-Regular;
+    transition: .5s;
+    &:focus {
+      outline: none;
+      border-color: #212121;
+      transition: .5s;
+    }
+  }
+  span:before {
+    content: '';
+    cursor: pointer;
+    position: relative;
+    font-family: 'Font Awesome 5 Pro';
+    top: 0;
+    right: 1.5rem;
+  }
+}
