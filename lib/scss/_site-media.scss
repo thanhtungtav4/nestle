@@ -107,7 +107,7 @@
     z-index: 999;
     .owl-item{
         img{
-          opacity: 0.5;
+          opacity: 0.8;
           width: 60% !important;
           margin: 0 auto;
           text-align: center;
@@ -124,7 +124,7 @@
 
   }
   .slider1{
-    margin-top: -3.4rem;
+    margin-top: -2.8rem;
     z-index: 1;
   }
   .owl-carousel .owl-stage {
@@ -135,8 +135,16 @@
     //content: url("../../lib/images/caret-up-solid.svg");
     content: url("../../lib/images/up.png");
     position: absolute;
-    top: -14px;
+    top: -13px;
     color: $lavender;
+  }
+  .slider2{
+    z-index: 99 !important;
+  }
+  .slider1{
+    .text-nutri-title {
+      z-index: 9;
+    }
   }
 }
 // Large devices (max-width: 1199.98px)

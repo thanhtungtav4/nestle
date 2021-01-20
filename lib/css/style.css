@@ -1016,7 +1016,7 @@ body.offcanvas-active {
   .slider2 {
     z-index: 999; }
     .slider2 .owl-item img {
-      opacity: 0.5;
+      opacity: 0.8;
       width: 60% !important;
       margin: 0 auto;
       text-align: center; }
@@ -1027,7 +1027,7 @@ body.offcanvas-active {
       text-align: center; }
 
   .slider1 {
-    margin-top: -3.4rem;
+    margin-top: -2.8rem;
     z-index: 1; }
 
   .owl-carousel .owl-stage {
@@ -1037,7 +1037,13 @@ body.offcanvas-active {
   #navbar_main:before {
     content: url("../../lib/images/up.png");
     position: absolute;
-    top: -14px;
-    color: #9361a7; } }
+    top: -13px;
+    color: #9361a7; }
+
+  .slider2 {
+    z-index: 99 !important; }
+
+  .slider1 .text-nutri-title {
+    z-index: 9; } }
 
 /*# sourceMappingURL=style.css.map */
