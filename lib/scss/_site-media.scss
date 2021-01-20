@@ -22,21 +22,7 @@
     border-radius: 9px;
   }
 }
-@media (max-width: 480px) {
-  .section-all-post {
-    .all-post-name
-    {
-      font-size: 1.2rem;
-    }
-    .form-control-nt, .btn-seach-nt{
-      padding: 3px 0.8rem;
-      font-size: 0.6rem;
-    }
-    .btn-seach-nt{
-      margin-left: 0.6rem;
-    }
-  }
-}
+
 // Extra small devices max-width: 575.98px
 //@media (max-width: 575.98px) { ... }
 @include media-breakpoint-down(xs) {
@@ -44,6 +30,7 @@
     .all-post-name
     {
       font-size: 1.3rem;
+      padding-left: 8px !important;
     }
     .form-control-nt, .btn-seach-nt{
       padding: 5px 1rem;
@@ -72,6 +59,11 @@
     .btn-seach-nt{
       margin-left: 0.5rem;
     }
+    .card{
+      .card-body{
+        padding: 1.15rem 0.3rem;
+      }
+    }
   }
 
 }
@@ -85,7 +77,6 @@
     margin-top: -1.8rem;
   }
   .offcanvas-header{ display:block; }
-
   .mobile-offcanvas{
     visibility: hidden;
     transform:translateY(-100%);
@@ -190,13 +181,69 @@
   .w-mb-65{
     max-width: 65%;
   }
+  .section-all-post{
+    .bg-gray{
+      .col-6{
+        padding-left: 5px;
+        padding-right: 5px;
+        .card-body{
+
+        }
+      }
+    }
+  }
 }
 // Large devices (max-width: 1199.98px)
 @include media-breakpoint-down(lg) {
 
 
 }
-
+@media (max-width: 480px) {
+  .section-all-post {
+    .all-post-name
+    {
+      font-size: 1.3rem;
+    }
+    .form-control-nt{
+      padding: 5px 0.8rem;
+      font-size: 0.7rem;
+    }
+    .btn-seach-nt{
+      margin-left: 0.4rem;
+      padding-top: 0.7rem;
+      padding-bottom: 0.7rem;
+      font-size: 0.6rem;
+    }
+  }
+}
+@media (max-width: 391px) {
+  .section-all-post {
+    .all-post-name
+    {
+      font-size: 1.1rem;
+    }
+    .form-control-nt{
+      font-size: 0.5rem;
+      height: calc(2rem + 2px);
+    }
+    .btn-seach-nt{
+      margin-left: 0.2rem;
+      height: calc(2rem + 2px);
+      font-size: 0.5rem;
+    }
+  }
+}
+@media (max-width: 324px) {
+  .section-all-post {
+    .all-post-name
+    {
+      font-size: 0.8rem;
+    }
+    .form-control-nt, .btn-seach-nt{
+      height: calc(1.7rem + 2px);
+    }
+  }
+}
 //******************************************************
 // Apply styles starting from medium devices and up to extra large devices
 //@media (min-width: 768px) and (max-width: 1199.98px) { ... }

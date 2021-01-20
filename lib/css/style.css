@@ -603,7 +603,7 @@
       margin: 0.3rem; } }
   .section-all-post .row .col-md-4 .card .card-text {
     font-family: 'Roboto-Regular';
-    font-weight: 600;
+    font-weight: 500;
     color: #949494; }
 .section-all-post .all-post-name {
   font-family: 'NVNLunchBoxRegular';
@@ -953,17 +953,10 @@ body.offcanvas-active {
   .logo-mobile-img {
     width: 74%;
     border-radius: 9px; } }
-@media (max-width: 480px) {
-  .section-all-post .all-post-name {
-    font-size: 1.2rem; }
-  .section-all-post .form-control-nt, .section-all-post .btn-seach-nt {
-    padding: 3px 0.8rem;
-    font-size: 0.6rem; }
-  .section-all-post .btn-seach-nt {
-    margin-left: 0.6rem; } }
 @media (max-width: 575.98px) {
   .section-all-post .all-post-name {
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+    padding-left: 8px !important; }
   .section-all-post .form-control-nt, .section-all-post .btn-seach-nt {
     padding: 5px 1rem;
     font-size: 0.8rem; }
@@ -980,7 +973,9 @@ body.offcanvas-active {
     padding: 5px 1rem;
     font-size: 1rem; }
   .section-all-post .btn-seach-nt {
-    margin-left: 0.5rem; } }
+    margin-left: 0.5rem; }
+  .section-all-post .card .card-body {
+    padding: 1.15rem 0.3rem; } }
 @media (max-width: 991.98px) {
   .mx-md-auto-mobile {
     margin: auto;
@@ -1071,6 +1066,36 @@ body.offcanvas-active {
     z-index: 9; }
 
   .w-mb-65 {
-    max-width: 65%; } }
+    max-width: 65%; }
+
+  .section-all-post .bg-gray .col-6 {
+    padding-left: 5px;
+    padding-right: 5px; } }
+@media (max-width: 480px) {
+  .section-all-post .all-post-name {
+    font-size: 1.3rem; }
+  .section-all-post .form-control-nt {
+    padding: 5px 0.8rem;
+    font-size: 0.7rem; }
+  .section-all-post .btn-seach-nt {
+    margin-left: 0.4rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    font-size: 0.6rem; } }
+@media (max-width: 391px) {
+  .section-all-post .all-post-name {
+    font-size: 1.1rem; }
+  .section-all-post .form-control-nt {
+    font-size: 0.5rem;
+    height: calc(2rem + 2px); }
+  .section-all-post .btn-seach-nt {
+    margin-left: 0.2rem;
+    height: calc(2rem + 2px);
+    font-size: 0.5rem; } }
+@media (max-width: 324px) {
+  .section-all-post .all-post-name {
+    font-size: 0.8rem; }
+  .section-all-post .form-control-nt, .section-all-post .btn-seach-nt {
+    height: calc(1.7rem + 2px); } }
 
 /*# sourceMappingURL=style.css.map */
