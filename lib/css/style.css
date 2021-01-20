@@ -1035,9 +1035,9 @@ body.offcanvas-active {
     align-items: center; }
 
   #navbar_main:before {
-    content: url("../../lib/images/star-solid.svg");
+    content: url("../../lib/images/up.png");
     position: absolute;
-    top: -22px;
+    top: -14px;
     color: #9361a7; } }
 
 /*# sourceMappingURL=style.css.map */
