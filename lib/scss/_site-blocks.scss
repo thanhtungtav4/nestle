@@ -482,6 +482,7 @@
     a{
       @include color-breadcrumb;
     }
+    padding-left: 0;
   }
   .breadcrumb-item+.breadcrumb-item:before {
     @include color-breadcrumb;

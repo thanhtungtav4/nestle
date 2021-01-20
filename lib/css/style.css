@@ -560,7 +560,8 @@
   font-weight: 500;
   font-size: 1.1rem;
   font-family: 'Roboto-Regular';
-  color: #8f8f8f; }
+  color: #8f8f8f;
+  padding-left: 0; }
   .section-breadcrumb .breadcrumb a {
     color: #8f8f8f; }
 .section-breadcrumb .breadcrumb-item + .breadcrumb-item:before {
