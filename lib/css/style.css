@@ -512,7 +512,6 @@
 .section-tab .text-tab-title-h4 {
   font-size: 1.5rem;
   font-family: Roboto;
-  color: #949494;
   color: #626262;
   width: 60%; }
 .section-tab .name-tab-show {
@@ -980,8 +979,6 @@ body.offcanvas-active {
     height: auto;
     z-index: 1200;
     width: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
     transition: visibility .2s ease-in-out, transform .2s ease-in-out; }
 
   .mobile-offcanvas .navbar-nav .dropdown-toggle:after {
@@ -1035,6 +1032,12 @@ body.offcanvas-active {
 
   .owl-carousel .owl-stage {
     display: flex;
-    align-items: center; } }
+    align-items: center; }
+
+  #navbar_main:before {
+    content: url("../../lib/images/star-solid.svg");
+    position: absolute;
+    top: -22px;
+    color: #9361a7; } }
 
 /*# sourceMappingURL=style.css.map */

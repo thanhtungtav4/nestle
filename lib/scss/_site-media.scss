@@ -56,8 +56,8 @@
     height: auto;
     z-index: 1200;
     width:100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    //overflow-y: scroll;
+    //overflow-x: hidden;
     transition: visibility .2s ease-in-out, transform .2s ease-in-out;
   }
   .mobile-offcanvas{
@@ -130,6 +130,13 @@
   .owl-carousel .owl-stage {
     display: flex;
     align-items: center;
+  }
+  #navbar_main:before{
+    //content: url("../../lib/images/caret-up-solid.svg");
+    content: url("../../lib/images/star-solid.svg");
+    position: absolute;
+    top: -22px;
+    color: $lavender;
   }
 }
 // Large devices (max-width: 1199.98px)
