@@ -22,10 +22,37 @@
     border-radius: 9px;
   }
 }
+@media (max-width: 480px) {
+  .section-all-post {
+    .all-post-name
+    {
+      font-size: 1.2rem;
+    }
+    .form-control-nt, .btn-seach-nt{
+      padding: 3px 0.8rem;
+      font-size: 0.6rem;
+    }
+    .btn-seach-nt{
+      margin-left: 0.6rem;
+    }
+  }
+}
 // Extra small devices max-width: 575.98px
 //@media (max-width: 575.98px) { ... }
 @include media-breakpoint-down(xs) {
-
+  .section-all-post {
+    .all-post-name
+    {
+      font-size: 1.3rem;
+    }
+    .form-control-nt, .btn-seach-nt{
+      padding: 5px 1rem;
+      font-size: 0.8rem;
+    }
+    .btn-seach-nt{
+      margin-left: 0.8rem;
+    }
+  }
 }
 // Small devices max-width: 767.98px
 @include media-breakpoint-down(sm) {
@@ -33,6 +60,20 @@
     padding-top: 0;
     padding-bottom: 0;
   }
+  .section-all-post {
+    .all-post-name
+    {
+      font-size: 1.5rem;
+    }
+    .form-control-nt, .btn-seach-nt{
+      padding: 5px 1rem;
+      font-size: 1rem;
+    }
+    .btn-seach-nt{
+      margin-left: 0.5rem;
+    }
+  }
+
 }
 // Medium devices max-width: 991.98px
 @include media-breakpoint-down(md) {
@@ -145,6 +186,9 @@
     .text-nutri-title {
       z-index: 9;
     }
+  }
+  .w-mb-65{
+    max-width: 65%;
   }
 }
 // Large devices (max-width: 1199.98px)

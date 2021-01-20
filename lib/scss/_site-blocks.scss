@@ -479,6 +479,7 @@
     font-size: 1.1rem;
     @include RobotoRegular;
     @include color-breadcrumb;
+    margin-bottom: 0;
     a{
       @include color-breadcrumb;
     }
@@ -656,14 +657,12 @@
   }
 }
 .form-control-nt{
-  border-radius: 20px;
   padding: 5px 2rem;
   text-transform: uppercase;
   @include RobotoRegular;
   font-weight: 500;
 }
 .btn-seach-nt{
-  border-radius: 20px;
   padding: 5px 20px;
   text-transform: uppercase;
   color: white;
