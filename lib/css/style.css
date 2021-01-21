@@ -956,14 +956,21 @@ body.offcanvas-active {
   background-color: transparent;
   margin: 0 auto;
   text-align: center; }
+.modal-pink .modal-content {
+  background-color: transparent;
+  border: unset; }
 .modal-pink .modal-header {
   border-bottom: unset; }
 .modal-pink .start-pop {
   font-size: 2.5rem;
-  font-family: 'NVNLunchBox';
+  font-family: 'NVNLunchBoxRegular';
   font-weight: 500;
   color: white;
   font-weight: bold; }
+.modal-pink .cost-pink {
+  font-size: 3.7rem;
+  font-family: 'NVNLunchBoxRegular';
+  font-weight: 500; }
 .modal-pink .start-pop:before {
   content: url("../../lib/images/left-start.png"); }
 .modal-pink .start-pop:after {
@@ -972,12 +979,33 @@ body.offcanvas-active {
   font-family: 'NVNLunchBox';
   font-weight: 500;
   color: white; }
+.modal-pink .quiz-cost {
+  font-size: 2rem;
+  font-family: 'NVNLunchBoxRegular';
+  font-weight: 500;
+  font-weight: bold;
+  color: #949494; }
+.modal-pink .bg-white-pink {
+  background-image: url("../../lib/images/bg-modal-content-white.png");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin: 0 auto;
+  text-align: center; }
 
 /* Media */
 @media (max-width: 420px) {
   .logo-mobile-img {
     width: 74%;
-    border-radius: 9px; } }
+    border-radius: 9px; }
+
+  .modal-pink .start-pop {
+    font-size: 1.2rem; }
+  .modal-pink .cost-pink {
+    font-size: 1.3rem; }
+  .modal-pink .quiz-cost {
+    font-size: 1rem; } }
 @media (max-width: 575.98px) {
   .section-all-post .all-post-name {
     font-size: 1.3rem;
@@ -986,7 +1014,14 @@ body.offcanvas-active {
     padding: 5px 1rem;
     font-size: 0.8rem; }
   .section-all-post .btn-seach-nt {
-    margin-left: 0.8rem; } }
+    margin-left: 0.8rem; }
+
+  .modal-pink .start-pop {
+    font-size: 1.7rem; }
+  .modal-pink .cost-pink {
+    font-size: 2rem; }
+  .modal-pink .quiz-cost {
+    font-size: 1.3rem; } }
 @media (max-width: 767.98px) {
   .nav-mobile-custome {
     padding-top: 0;
@@ -1000,7 +1035,14 @@ body.offcanvas-active {
   .section-all-post .btn-seach-nt {
     margin-left: 0.5rem; }
   .section-all-post .card .card-body {
-    padding: 1.15rem 0.3rem; } }
+    padding: 1.15rem 0.3rem; }
+
+  .modal-pink .start-pop {
+    font-size: 2rem; }
+  .modal-pink .cost-pink {
+    font-size: 3rem; }
+  .modal-pink .quiz-cost {
+    font-size: 1.6rem; } }
 @media (max-width: 991.98px) {
   .mx-md-auto-mobile {
     margin: auto;
@@ -1107,6 +1149,13 @@ body.offcanvas-active {
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
     font-size: 0.6rem; } }
+@media (max-width: 420px) {
+  .modal-pink .start-pop {
+    font-size: 2rem; }
+  .modal-pink .cost-pink {
+    font-size: 2.3rem; }
+  .modal-pink .quiz-cost {
+    font-size: 1.3rem; } }
 @media (max-width: 391px) {
   .section-all-post .all-post-name {
     font-size: 1.1rem; }
@@ -1117,10 +1166,29 @@ body.offcanvas-active {
     margin-left: 0.2rem;
     height: calc(2rem + 2px);
     font-size: 0.5rem; } }
+@media (max-width: 360px) {
+  .modal-pink .start-pop {
+    font-size: 1.8rem; }
+  .modal-pink .cost-pink {
+    font-size: 2.1rem; }
+  .modal-pink .quiz-cost {
+    font-size: 1.1rem; } }
+@media (max-width: 340px) {
+  .modal-pink .start-pop {
+    font-size: 1.6rem; }
+  .modal-pink .cost-pink {
+    font-size: 2rem; }
+  .modal-pink .quiz-cost {
+    font-size: 1.1rem; } }
 @media (max-width: 324px) {
   .section-all-post .all-post-name {
     font-size: 0.8rem; }
   .section-all-post .form-control-nt, .section-all-post .btn-seach-nt {
-    height: calc(1.7rem + 2px); } }
+    height: calc(1.7rem + 2px); }
+
+  .modal-pink .start-pop {
+    font-size: 1.4rem; }
+  .modal-pink .cost-pink {
+    font-size: 1.8rem; } }
 
 /*# sourceMappingURL=style.css.map */

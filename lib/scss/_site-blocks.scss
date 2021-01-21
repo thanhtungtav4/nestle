@@ -973,14 +973,23 @@ body.offcanvas-active{
     margin: 0 auto;
     text-align: center;
   }
+  .modal-content{
+    background-color: transparent;
+    border:unset;
+
+  }
   .modal-header{
     border-bottom: unset;
   }
   .start-pop{
     font-size: 2.5rem;
-    @include ArialUnicodeMsBold;
+    @include ArialUnicodeMs;
     color: white;
     font-weight: bold;
+  }
+  .cost-pink{
+    font-size: 3.7rem;
+    @include ArialUnicodeMs;
   }
   .start-pop:before{
     content: url("../../lib/images/left-start.png");
@@ -991,5 +1000,21 @@ body.offcanvas-active{
   .cost-pink{
     @include ArialUnicodeMsBold;
     color: white;
+  }
+  .quiz-cost{
+    font-size: 2rem;
+    @include ArialUnicodeMs;
+    font-weight: bold;
+    color: $color-gray;
+
+  }
+  .bg-white-pink{
+    background-image: url("../../lib/images/bg-modal-content-white.png");
+    background-size: cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 0 auto;
+    text-align: center;
   }
 }

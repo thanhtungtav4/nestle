@@ -17,9 +17,22 @@
 }
 //************************************************
 @media (max-width: 420px) {
-  .logo-mobile-img{
+  .logo-mobile-img {
     width: 74%;
     border-radius: 9px;
+  }
+  .modal-pink {
+    .start-pop {
+      font-size: 1.2rem;
+    }
+
+    .cost-pink {
+      font-size: 1.3rem;
+    }
+
+    .quiz-cost {
+      font-size: 1rem;
+    }
   }
 }
 
@@ -40,6 +53,18 @@
       margin-left: 0.8rem;
     }
   }
+  .modal-pink{
+    .start-pop{
+      font-size: 1.7rem;
+    }
+    .cost-pink{
+      font-size: 2rem;
+    }
+    .quiz-cost{
+      font-size: 1.3rem;
+    }
+  }
+
 }
 // Small devices max-width: 767.98px
 @include media-breakpoint-down(sm) {
@@ -65,7 +90,17 @@
       }
     }
   }
-
+  .modal-pink{
+    .start-pop{
+      font-size: 2rem;
+    }
+    .cost-pink{
+      font-size: 3rem;
+    }
+    .quiz-cost{
+      font-size: 1.6rem;
+    }
+  }
 }
 // Medium devices max-width: 991.98px
 @include media-breakpoint-down(md) {
@@ -216,6 +251,19 @@
     }
   }
 }
+@media (max-width: 420px) {
+  .modal-pink{
+    .start-pop{
+      font-size: 2rem;
+    }
+    .cost-pink{
+      font-size: 2.3rem;
+    }
+    .quiz-cost{
+      font-size: 1.3rem;
+    }
+  }
+}
 @media (max-width: 391px) {
   .section-all-post {
     .all-post-name
@@ -233,6 +281,32 @@
     }
   }
 }
+@media (max-width: 360px) {
+  .modal-pink{
+    .start-pop{
+      font-size: 1.8rem;
+    }
+    .cost-pink{
+      font-size: 2.1rem;
+    }
+    .quiz-cost{
+      font-size: 1.1rem;
+    }
+  }
+}
+@media (max-width: 340px) {
+  .modal-pink{
+    .start-pop{
+      font-size: 1.6rem;
+    }
+    .cost-pink{
+      font-size: 2rem;
+    }
+    .quiz-cost{
+      font-size: 1.1rem;
+    }
+  }
+}
 @media (max-width: 324px) {
   .section-all-post {
     .all-post-name
@@ -241,6 +315,14 @@
     }
     .form-control-nt, .btn-seach-nt{
       height: calc(1.7rem + 2px);
+    }
+  }
+  .modal-pink{
+    .start-pop{
+      font-size: 1.4rem;
+    }
+    .cost-pink{
+      font-size: 1.8rem;
     }
   }
 }
