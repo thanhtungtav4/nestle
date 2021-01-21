@@ -948,6 +948,31 @@ body.offcanvas-active {
   border-top-right-radius: 40px !important;
   border-bottom-left-radius: 40px !important; }
 
+.modal-pink .pink-content {
+  background-image: url("../../lib/images/bg-modal-content.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin: 0 auto;
+  text-align: center; }
+.modal-pink .modal-header {
+  border-bottom: unset; }
+.modal-pink .start-pop {
+  font-size: 2.5rem;
+  font-family: 'NVNLunchBox';
+  font-weight: 500;
+  color: white;
+  font-weight: bold; }
+.modal-pink .start-pop:before {
+  content: url("../../lib/images/left-start.png"); }
+.modal-pink .start-pop:after {
+  content: url("../../lib/images/right-start.png"); }
+.modal-pink .cost-pink {
+  font-family: 'NVNLunchBox';
+  font-weight: 500;
+  color: white; }
+
 /* Media */
 @media (max-width: 420px) {
   .logo-mobile-img {

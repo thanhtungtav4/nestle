@@ -963,3 +963,33 @@ body.offcanvas-active{
   border-top-right-radius: 40px !important;
   border-bottom-left-radius: 40px !important;
 }
+.modal-pink{
+  .pink-content{
+    background-image: url("../../lib/images/bg-modal-content.png");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .modal-header{
+    border-bottom: unset;
+  }
+  .start-pop{
+    font-size: 2.5rem;
+    @include ArialUnicodeMsBold;
+    color: white;
+    font-weight: bold;
+  }
+  .start-pop:before{
+    content: url("../../lib/images/left-start.png");
+  }
+  .start-pop:after{
+    content: url("../../lib/images/right-start.png");
+  }
+  .cost-pink{
+    @include ArialUnicodeMsBold;
+    color: white;
+  }
+}
