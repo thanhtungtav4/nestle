@@ -994,6 +994,9 @@ body.offcanvas-active {
   margin: 0 auto;
   text-align: center; }
 
+.border-top-organ {
+  content: url("../../lib/images/line-info.png"); }
+
 /* Media */
 @media (max-width: 420px) {
   .logo-mobile-img {
