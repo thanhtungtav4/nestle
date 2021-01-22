@@ -344,6 +344,12 @@ $lavender:#9361a7;
 }
 .size3rem{
   font-size: 3rem !important;
+  @include media-breakpoint-down(md) {
+    font-size: 2.5rem !important;
+  }
+  @include media-breakpoint-down(xs) {
+    font-size: 1.7rem !important;
+  }
 }
 .size4rem{
   font-size: 4rem !important;
@@ -356,6 +362,12 @@ $lavender:#9361a7;
 }
 @mixin sizeh1{
   font-size: 2.3rem;
+  @include media-breakpoint-down(md) {
+    font-size: 1.9rem !important;
+  }
+  @include media-breakpoint-down(xs) {
+    font-size: 1.5rem !important;
+  }
 }
 .w-25px{
   width: 25px;

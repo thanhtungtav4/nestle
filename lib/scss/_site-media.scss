@@ -9,6 +9,9 @@
 }
 // Large devices (desktops, 992px and up)
 @include media-breakpoint-up(lg) {
+  .w-md-75{
+    max-width: 75%;
+  }
 
 }
 // Extra large devices (large desktops, 1200px and up)
@@ -70,7 +73,7 @@
 
 }
 // Small devices max-width: 767.98px
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(xs) {
   .nav-mobile-custome{
     padding-top: 0;
     padding-bottom: 0;
@@ -107,6 +110,9 @@
 }
 // Medium devices max-width: 991.98px
 @include media-breakpoint-down(md) {
+  .bg-md-gray{
+    background-color: $color-pink-light;
+  }
   .mx-md-auto-mobile{
     margin: auto;
     text-align: center;

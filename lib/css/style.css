@@ -199,6 +199,12 @@
 
 .size3rem {
   font-size: 3rem !important; }
+  @media (max-width: 991.98px) {
+    .size3rem {
+      font-size: 2.5rem !important; } }
+  @media (max-width: 575.98px) {
+    .size3rem {
+      font-size: 1.7rem !important; } }
 
 .size4rem {
   font-size: 4rem !important; }
@@ -583,6 +589,12 @@
   color: #949494;
   font-weight: 500;
   font-size: 1.1rem; }
+@media (max-width: 575.98px) {
+  .section-queue .media-object {
+    width: 100%; } }
+@media (max-width: 575.98px) {
+  .section-queue .media-heading {
+    font-size: 2.4rem; } }
 
 .color-light-green-bg {
   background-color: #efefef; }
@@ -621,6 +633,12 @@
   text-align: center;
   justify-content: center;
   padding: 13px 15px 7px 15px; }
+  @media (max-width: 991.98px) {
+    .section-detail-content .category-name, .section-detail-content .post-name {
+      font-size: 1.9rem !important; } }
+  @media (max-width: 575.98px) {
+    .section-detail-content .category-name, .section-detail-content .post-name {
+      font-size: 1.5rem !important; } }
 .section-detail-content .category-name {
   color: white;
   border-radius: 20px;
@@ -1070,6 +1088,10 @@ body.offcanvas-active {
   height: 4px;
   background-color: #ed559b;
   margin-right: 5px; }
+  @media (max-width: 991.98px) {
+    .section-answer-the-question .answer-the-question-h1:before {
+      width: 2.4rem;
+      height: 3px; } }
 .section-answer-the-question .answer-the-question-h1:after {
   content: '';
   display: inline-block;
@@ -1077,10 +1099,17 @@ body.offcanvas-active {
   height: 4px;
   background-color: #ed559b;
   margin-left: 5px; }
+  @media (max-width: 991.98px) {
+    .section-answer-the-question .answer-the-question-h1:after {
+      width: 2.4rem;
+      height: 3px; } }
 .section-answer-the-question .answer-the-question-h1 {
   justify-content: center; }
 
 /* Media */
+@media (min-width: 992px) {
+  .w-md-75 {
+    max-width: 75%; } }
 @media (max-width: 420px) {
   .logo-mobile-img {
     width: 74%;
@@ -1111,7 +1140,7 @@ body.offcanvas-active {
 
   .size3rem {
     font-size: 2rem; } }
-@media (max-width: 767.98px) {
+@media (max-width: 575.98px) {
   .nav-mobile-custome {
     padding-top: 0;
     padding-bottom: 0; }
@@ -1133,6 +1162,9 @@ body.offcanvas-active {
   .modal-pink .quiz-cost {
     font-size: 1.6rem; } }
 @media (max-width: 991.98px) {
+  .bg-md-gray {
+    background-color: #efefef; }
+
   .mx-md-auto-mobile {
     margin: auto;
     text-align: center; }

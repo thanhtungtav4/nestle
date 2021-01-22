@@ -505,6 +505,16 @@
     font-weight: 500;
     font-size: 1.1rem;
   }
+  .media-object{
+    @include media-breakpoint-down(xs) {
+      width: 100%;
+    }
+  }
+  .media-heading{
+    @include media-breakpoint-down(xs) {
+      font-size: 2.4rem;
+    }
+  }
 }
 .color-light-green-bg{
   background-color: $color-pink-light;
@@ -1106,6 +1116,11 @@ body.offcanvas-active{
     height: 4px;
     background-color: $color-pink;
     margin-right: 5px;
+    @include media-breakpoint-down(md) {
+      width: 2.4rem;
+      height: 3px;
+    }
+
   }
   .answer-the-question-h1:after {
     content: '';
@@ -1114,6 +1129,10 @@ body.offcanvas-active{
     height: 4px;
     background-color: $color-pink;
     margin-left: 5px;
+    @include media-breakpoint-down(md) {
+      width: 2.4rem;
+      height: 3px;
+    }
   }
   .answer-the-question-h1 {
     justify-content: center;
