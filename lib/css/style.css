@@ -1063,6 +1063,22 @@ body.offcanvas-active {
   border-bottom: 1.5px dotted #0baf4d;
   border-top: unset;
   margin-bottom: 3rem; }
+.section-answer-the-question .answer-the-question-h1:before {
+  content: '';
+  display: inline-block;
+  width: 4rem;
+  height: 4px;
+  background-color: #ed559b;
+  margin-right: 5px; }
+.section-answer-the-question .answer-the-question-h1:after {
+  content: '';
+  display: inline-block;
+  width: 4rem;
+  height: 4px;
+  background-color: #ed559b;
+  margin-left: 5px; }
+.section-answer-the-question .answer-the-question-h1 {
+  justify-content: center; }
 
 /* Media */
 @media (max-width: 420px) {

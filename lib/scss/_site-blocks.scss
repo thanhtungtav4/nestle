@@ -1099,4 +1099,23 @@ body.offcanvas-active{
     border-top: unset;
     margin-bottom: 3rem;
   }
+  .answer-the-question-h1:before{
+    content: '';
+    display: inline-block;
+    width: 4rem;
+    height: 4px;
+    background-color: $color-pink;
+    margin-right: 5px;
+  }
+  .answer-the-question-h1:after {
+    content: '';
+    display: inline-block;
+    width: 4rem;
+    height: 4px;
+    background-color: $color-pink;
+    margin-left: 5px;
+  }
+  .answer-the-question-h1 {
+    justify-content: center;
+  }
 }
