@@ -1038,3 +1038,18 @@ body.offcanvas-active{
   transform: rotate(180deg);
   display: inline-block;
 }
+.section-answer-the-question{
+  .ul-li-customer{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    li:before{
+      content: url("../../lib/images/very.png");
+    }
+    li{
+      padding-left: 8px;
+      padding-right: 8px;
+      color: $color-gray;
+    }
+  }
+}

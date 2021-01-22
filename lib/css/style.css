@@ -1014,6 +1014,17 @@ body.offcanvas-active {
   transform: rotate(180deg);
   display: inline-block; }
 
+.section-answer-the-question .ul-li-customer {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%; }
+  .section-answer-the-question .ul-li-customer li:before {
+    content: url("../../lib/images/very.png"); }
+  .section-answer-the-question .ul-li-customer li {
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #949494; }
+
 /* Media */
 @media (max-width: 420px) {
   .logo-mobile-img {
