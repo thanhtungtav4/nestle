@@ -1018,6 +1018,9 @@ body.offcanvas-active {
   margin: 0 auto;
   text-align: center;
   width: 100%; }
+  @media (max-width: 991.98px) {
+    .section-answer-the-question .ul-li-customer {
+      text-align: left; } }
   .section-answer-the-question .ul-li-customer li:before {
     content: url("../../lib/images/very.png"); }
   .section-answer-the-question .ul-li-customer li {
@@ -1048,13 +1051,14 @@ body.offcanvas-active {
   background-color: #efefef;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-  border-bottom: 1.5px solid #626262;
-  border-left: 1.5px solid #626262;
-  border-right: 1.5px solid #626262;
+  border-bottom: 1.5px solid #949494;
+  border-left: 1.5px solid #949494;
+  border-right: 1.5px solid #949494;
   border-bottom-right-radius: 12px;
   border-bottom-left-radius: 12px;
   border-top: unset;
-  text-align: justify; }
+  text-align: justify;
+  color: #949494; }
 .section-answer-the-question .collapse-outline {
   border-bottom: 1.5px dotted #0baf4d;
   border-top: unset;
@@ -1087,7 +1091,10 @@ body.offcanvas-active {
   .modal-pink .cost-pink {
     font-size: 2rem; }
   .modal-pink .quiz-cost {
-    font-size: 1.3rem; } }
+    font-size: 1.3rem; }
+
+  .size3rem {
+    font-size: 2rem; } }
 @media (max-width: 767.98px) {
   .nav-mobile-custome {
     padding-top: 0;

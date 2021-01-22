@@ -1043,6 +1043,9 @@ body.offcanvas-active{
     margin: 0 auto;
     text-align: center;
     width: 100%;
+    @include media-breakpoint-down(md) {
+      text-align: left;
+    }
     li:before{
       content: url("../../lib/images/very.png");
     }
@@ -1082,13 +1085,14 @@ body.offcanvas-active{
     background-color: $color-pink-light;
     margin-bottom: 3rem;
     padding-bottom: 2rem;
-    border-bottom: 1.5px solid $clor-gray-bold;
-    border-left: 1.5px solid $clor-gray-bold;
-    border-right: 1.5px solid $clor-gray-bold;
+    border-bottom: 1.5px solid $color-gray;
+    border-left: 1.5px solid $color-gray;
+    border-right: 1.5px solid $color-gray;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
     border-top: unset;
     text-align: justify;
+    color: $color-gray;
   }
   .collapse-outline{
     border-bottom:1.5px dotted $color-green;
