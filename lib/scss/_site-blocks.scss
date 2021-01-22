@@ -1052,4 +1052,47 @@ body.offcanvas-active{
       color: $color-gray;
     }
   }
+  .dropdown-answer-the-question{
+    border: 1px solid $color-green;
+    border-radius: 5px;
+    .btn{
+      text-align: left !important;
+    }
+    a{
+      color: $color-green;
+    }
+    .dropdown-toggle:after {
+      content: "\f107";
+      border: unset;
+      font-family: 'Font Awesome 5 Pro';
+      font-weight: 600;
+      float: right;
+    }
+  }
+  .collapse-nt{
+    color: $color-green;
+    font-family: Roboto-Regular;
+    text-decoration: underline !important;
+  }
+  p{
+    color: $color-gray;
+    font-family: Roboto-Regular;
+  }
+  .card-body{
+    background-color: $color-pink-light;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1.5px solid $clor-gray-bold;
+    border-left: 1.5px solid $clor-gray-bold;
+    border-right: 1.5px solid $clor-gray-bold;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top: unset;
+    text-align: justify;
+  }
+  .collapse-outline{
+    border-bottom:1.5px dotted $color-green;
+    border-top: unset;
+    margin-bottom: 3rem;
+  }
 }
