@@ -997,6 +997,23 @@ body.offcanvas-active {
 .border-top-organ {
   content: url("../../lib/images/line-info.png"); }
 
+.row-border:before, .row-border:after {
+  content: url("../../lib/images/border-line.png");
+  display: block;
+  text-align: center;
+  width: 100%; }
+
+.class-text-custome:before {
+  content: url("../../lib/images/text-before.png");
+  padding-right: 5px;
+  display: inline-block; }
+
+.class-text-custome:after {
+  content: url("../../lib/images/text-before.png");
+  padding-left: 5px;
+  transform: rotate(180deg);
+  display: inline-block; }
+
 /* Media */
 @media (max-width: 420px) {
   .logo-mobile-img {
