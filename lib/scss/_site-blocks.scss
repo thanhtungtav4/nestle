@@ -56,10 +56,13 @@
   @include SizeTittleArialUnicodeMs;
 }
 .description-owl{
-  @include Roboto;
+  @include RobotoRegular();
   font-weight: 500;
   font-size: 1.1rem;
   line-height: 100%;
+  @include media-breakpoint-down(md) {
+    color: $clor-gray-bold !important;
+  }
 }
 .owl-carousel.off {
   display: block;

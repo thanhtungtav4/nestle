@@ -201,7 +201,7 @@
       </div>
     </div>
   </section>
-  <section class="section-tab py-5">
+  <section class="section-tab py-5 d-none d-md-block">
     <div class="container">
       <ul class="nav nav-tabs text-center navbar-full list-inline">
         <li class="panel active"><a data-toggle="tab" href="#an-ngon-an-dung" class="active show">
@@ -444,6 +444,81 @@
 
     </div>
   </section>
+  <!-- tab mobile -->
+  <section class="section-nutri-health section-nutri-health-mobile d-md-none d-block">
+    <div class="container">
+      <div class="row mx-auto text-center">
+        <div class="slider2 owl-carousel owl-theme">
+          <a href="#zero" class="item" data-hash="zero">
+            <img class="img-fluid p-2" src="../../lib/images/an-ngon-an-dung.png" />
+          </a>
+          <a href="#one" class="item" data-hash="one">
+            <img class="img-fluid p-2 " src="../../lib/images/uong-du-nuoc.png" />
+          </a>
+          <a href="#two" class="item"data-hash="two">
+            <img class="img-fluid p-2" src="../../lib/images/van-dong-tich-cuc.png" />
+          </a>
+          <a href="#tree" class="item"data-hash="tree">
+            <img class="img-fluid p-2" src="../../lib/images/duy-tri-bua-an-gia-dinh.png" />
+          </a>
+        </div>
+        <div class="slider1 owl-carousel owl-theme">
+          <div class="item item1" data-hash="zero">
+            <div class="box-border ">
+              <h3 class="text-nutri-title mt-2 mb-0">
+                Ăn NGON Ăn Đúng
+              </h3>
+              <div class="img-box-nutri">
+                <img src="lib/images/lap-ghep-mon-an.png" class="img-fluid" />
+                <p class="text-nutri-description p-3">LẮP GHÉP MÓN ĂN VÀ KHẨU PHẨN</p>
+              </div>
+            </div>
+          </div>
+          <div class="item item2" data-hash="one">
+            <div class="box-nutri">
+              <div class="box-border">
+                <h3 class="text-nutri-title mt-2 mb-0">
+                  Uống đủ nước
+                </h3>
+                <div class="img-box-nutri">
+                  <img src="lib/images/lap-ghep-mon-an.png" class="img-fluid" />
+                  <p class="text-nutri-description p-3">LẮP GHÉP MÓN ĂN VÀ KHẨU PHẨN</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item item3" data-hash="two">
+            <div class="box-nutri ">
+              <div class="box-border">
+                <h3 class="text-nutri-title mt-2 mb-0">
+                  Ăn NGON Ăn Đúng
+                </h3>
+                <div class="img-box-nutri">
+                  <img src="lib/images/lap-ghep-mon-an.png" class="img-fluid" />
+                  <p class="text-nutri-description p-3">LẮP GHÉP MÓN ĂN VÀ KHẨU PHẨN</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item item4" data-hash="tree">
+            <div class="box-nutri">
+              <div class="box-border ">
+                <h3 class="text-nutri-title mt-2 mb-0">
+                  DUY TRÌ BỮA ĂN GIA ĐÌNH
+                </h3>
+                <div class="img-box-nutri">
+                  <img src="lib/images/lap-ghep-mon-an.png" class="img-fluid" />
+                  <p class="text-nutri-description p-3">LẮP GHÉP MÓN ĂN VÀ KHẨU PHẨN</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- !tab mobile-->
   <section class="py-3 section-owl-slider">
     <div class="container border-top-line pt-4">
       <div class="row slider-blue">
@@ -565,6 +640,24 @@
       $("li.active").prev().addClass('border-bottom-right-radius');
       //e.preventDefault();
     });
+</script>
+<script>
+  $('.slider1').owlCarousel({
+    loop:true,
+    margin:10,
+    items:1,
+    URLhashListener:true,
+    dots:true
+  })
+  $('.slider2').owlCarousel({
+    loop:true,
+    margin:10,
+    center: true,
+    nav:false,
+    items:2,
+    dots:false,
+    URLhashListener:true,
+  })
 </script>
 <!--onlypage-->
 </body>
