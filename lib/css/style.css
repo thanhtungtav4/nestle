@@ -1242,9 +1242,9 @@ body.offcanvas-active {
     align-items: center; }
 
   #navbar_main:before {
-    content: url("../../lib/images/up.png");
+    content: url("../../lib/images/sort-up.svg");
     position: absolute;
-    top: -13px;
+    top: -11px;
     color: #9361a7; }
 
   .slider2 {
