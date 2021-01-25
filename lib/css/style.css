@@ -741,7 +741,7 @@
   border-radius: 12px; }
 
 .border-radius20 {
-  border-radius: 20px!important; }
+  border-radius: 20px; }
 
 .sizeh2 {
   font-weight: bold;
@@ -1266,7 +1266,14 @@ body.offcanvas-active {
     color: white;
     content: "\f106";
     border: unset;
-    padding-right: 9px; } }
+    padding-right: 10px; }
+
+  .dropdown-toggle:after {
+    content: "\f107";
+    border: unset;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 600;
+    padding-right: 10px; } }
 @media (max-width: 480px) {
   .section-all-post .all-post-name {
     font-size: 1.3rem; }

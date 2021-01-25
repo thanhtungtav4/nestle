@@ -242,7 +242,14 @@
     color: white;
     content: "\f106";
     border: unset;
-    padding-right: 9px;
+    padding-right: 10px;
+  }
+  .dropdown-toggle:after {
+    content: "\f107";
+    border: unset;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 600;
+    padding-right: 10px;
   }
 }
 // Large devices (max-width: 1199.98px)
