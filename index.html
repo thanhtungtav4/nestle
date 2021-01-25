@@ -172,12 +172,12 @@
     </div>
     <!-- container //end -->
   </nav>
-  <section class="py-3 section-owl-slider d-md-block d-none">
+  <section class="py-3 section-owl-slider">
     <div class="container">
       <div class="row slider-pink">
         <div class="col-md-8 pr-0 pl-0">
           <div class="owl-slider">
-            <div class="owl-carousel owl-theme carousel-owl-slider">
+            <div class="owl-carousel owl-theme" id="carousel-owl-slider2">
               <div class="item">
                 <img class="owl-lazy img-fluid" data-src="lib/images/owl-image.png" alt="" />
               </div>
@@ -209,13 +209,13 @@
       </div>
     </div>
   </section>
-  <!-- mobile  d-block d-md-none-->
-  <section class="py-3 section-owl-slider d-block d-md-none">
+  <!-- mobile -->
+  <section class="py-3 section-owl-slider d-md-none d-block">
     <div class="container">
       <div class="row slider-pink">
         <div class="col-md-8 pr-0 pl-0">
           <div class="owl-slider">
-            <div class="owl-carousel owl-theme carousel-owl-slider">
+            <div class="owl-carousel owl-theme" id="carousel-owl-slider-mobile">
               <div class="item">
                 <img class="owl-lazy img-fluid" data-src="lib/images/owl-image.png" alt="" />
               </div>
@@ -274,7 +274,7 @@
               </h3>
               <div class="img-box-nutri">
                 <img src="lib/images/lap-ghep-mon-an.png" class="img-fluid" />
-                <p class="text-nutri-description p-3">LẮP GHÉP MÓN ĂN VÀ KHẨU  VÀ KHẨU</p>
+                <p class="text-nutri-description p-3">LẮP GHÉP MÓN ĂN VÀ KHẨU PHẨN</p>
               </div>
             </div>
           </div>
@@ -399,7 +399,7 @@
         </div>
         <div class="col-md-8 pr-0 pl-0">
           <div class="owl-slider">
-            <div class="owl-carousel owl-theme carousel-owl-slider2">
+            <div class="owl-carousel owl-theme carousel-owl-slider">
               <div class="item">
                 <img class="owl-lazy img-fluid" data-src="lib/images/thap-dinh-duong.png" alt="" />
               </div>
@@ -511,7 +511,8 @@
 <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 <script src="lib/js/jquery.matchHeight-min.js"></script>
 <script>
-  jQuery(".owl-slider .carousel-owl-slider").owlCarousel({
+  $(document).ready(function () {
+    $('#carousel-owl-slider2').owlCarousel({
     autoplay: true,
     lazyLoad: true,
     loop: true,
@@ -526,7 +527,12 @@
     navContainer: ".owl-slider .custom-nav",
     items: 1,
   });
-  jQuery(".owl-slider .carousel-owl-slider2").owlCarousel({
+    $('#carousel-owl-slider2').trigger('owl.play',2000);
+  });
+</script>
+<script>
+
+  jQuery(".carousel-owl-slider").owlCarousel({
     autoplay: true,
     lazyLoad: true,
     loop: true,
@@ -541,6 +547,7 @@
     navContainer: ".owl-slider .custom-nav",
     items: 1,
   });
+
 </script>
 <!--onlypage-->
 <script>
@@ -611,19 +618,6 @@
     URLhashListener:true,
   })
 </script>
-<!--<script>-->
-<!--  //Match title height-->
-<!--  function MatchHeight() {-->
-<!--    $('.box-nutri .text-nutri-description')-->
-<!--            .matchHeight({})-->
-<!--    ;-->
-<!--  }-->
-
-<!--  //Functions that run when all HTML is loaded-->
-<!--  $(document).ready(function() {-->
-<!--    MatchHeight();-->
-<!--  });-->
-<!--</script>-->
 <!--onlypage-->
 <!-- Modal all page you copy to all *.html-->
 <div class="modal fade" id="ModalSeach" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
