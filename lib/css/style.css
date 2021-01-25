@@ -386,7 +386,12 @@
     font-weight: 500;
     color: white;
     font-weight: 500;
-    line-height: 100%; }
+    height: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical; }
   .section-nutri-health .col-md-3:nth-child(1) .text-nutri-description {
     background: #193393; }
   .section-nutri-health .col-md-3:nth-child(1) .text-nutri-title {
@@ -1105,6 +1110,17 @@ body.offcanvas-active {
       height: 3px; } }
 .section-answer-the-question .answer-the-question-h1 {
   justify-content: center; }
+
+#user-login-form {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  left: 35%;
+  right: 35%; }
+  #user-login-form .edit-name--description, #user-login-form .edit-pass--description {
+    display: none; }
 
 /* Media */
 @media (min-width: 992px) {
