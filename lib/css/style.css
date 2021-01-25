@@ -1258,7 +1258,15 @@ body.offcanvas-active {
 
   .section-all-post .bg-gray .col-6 {
     padding-left: 5px;
-    padding-right: 5px; } }
+    padding-right: 5px; }
+
+  #navbar_main .navbar-nav .show .dropdown-toggle:after {
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 600;
+    color: white;
+    content: "\f106";
+    border: unset;
+    padding-right: 9px; } }
 @media (max-width: 480px) {
   .section-all-post .all-post-name {
     font-size: 1.3rem; }

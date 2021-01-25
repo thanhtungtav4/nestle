@@ -236,6 +236,14 @@
       }
     }
   }
+  #navbar_main .navbar-nav .show .dropdown-toggle:after{
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 600;
+    color: white;
+    content: "\f106";
+    border: unset;
+    padding-right: 9px;
+  }
 }
 // Large devices (max-width: 1199.98px)
 @include media-breakpoint-down(lg) {
