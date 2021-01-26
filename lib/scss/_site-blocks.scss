@@ -527,9 +527,10 @@
 }
 .color-light-green-bg{
   background-color: $color-pink-light;
+  border-top-left-radius: 20px;
   .description-owl{
     @include RobotoRegular;
-    @include color-gray;
+    color: $clor-gray-bold;
     font-size: 1.3rem;
     font-weight: 500;
     line-height: 140%;
@@ -1157,5 +1158,16 @@ body.offcanvas-active{
   right: 35%;
   .edit-name--description, .edit-pass--description{
     display: none;
+  }
+
+}
+.section-owl-slider{
+  .color-light-green-bg{
+    .owl-carousel .owl-item img.owl-lazy{
+      border-top-right-radius:20px !important;
+    }
+    .owl-slider{
+      background-color: white;
+    }
   }
 }
