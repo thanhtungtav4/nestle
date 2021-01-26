@@ -301,6 +301,34 @@
     }
 
   }
+  .border-bottom-only-md{
+    border-bottom:1px solid $color-gray;
+    padding-top: 1rem;
+  }
+  .section-detail-content{
+    .category-name {
+      font-size: 1.5rem !important;
+      padding: 10px 15px 3px 15px;
+    }
+    .sizeh2 {
+      font-weight: 600;
+      font-size: 1.5rem;
+      line-height: 110%;
+    }
+    .ul-list-step{
+      li:before {
+        margin-left: -3rem;
+      }
+    }
+  }
+  .section-queue{
+    .media-object{
+      width: 100% !important;
+    }
+    .text-title-queue{
+      line-height: 110%;
+    }
+  }
 }
 // Large devices (max-width: 1199.98px)
 @include media-breakpoint-down(lg) {

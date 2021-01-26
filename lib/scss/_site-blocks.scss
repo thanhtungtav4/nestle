@@ -509,7 +509,7 @@
   }
   .description-queue{
     @include Roboto;
-    @include color-gray;
+    color: $clor-gray-bold;
     font-weight: 500;
     font-size: 1.1rem;
   }
@@ -565,7 +565,7 @@
     @include ArialUnicodeMsLight;
     font-weight: 600;
     @include sizeh1;
-    line-height: 100%;
+    line-height: 130%;
     text-align: center;
     justify-content: center;
     padding: 13px 15px 7px 15px;
@@ -713,7 +713,7 @@
 .sizeh2{
   font-weight: bold;
   font-size: 2rem;
-  line-height: 100%;
+  line-height: 110%;
 }
 .w-50px{
   max-width: 40px;
