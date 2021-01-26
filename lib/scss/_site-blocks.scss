@@ -3,7 +3,7 @@
     @include ArialUnicodeMs;
     font-size: 1.2rem;
     font-weight: 600;
-    line-height: 100%;
+    line-height: 120%;
     a{
       @include color-blue;
     }
@@ -59,7 +59,7 @@
   @include RobotoRegular();
   font-weight: 500;
   font-size: 1.1rem;
-  line-height: 100%;
+  line-height: 120%;
   @include media-breakpoint-down(md) {
     color: $clor-gray-bold !important;
   }
@@ -117,9 +117,10 @@
 }
 .slider-base-box{
    .description-owl{
-      font-family: Roboto;
+      font-family: Roboto-Regular;
       font-weight: 500;
-      line-height: 100%;
+      line-height: 120%;
+      color: $clor-gray-bold;
    }
 }
 //gen box sider pink
@@ -154,31 +155,31 @@
   background-color: $color-dark-gray-light;
   .title-owl{
     color: $color-light-blue;
-    line-height: 100%;
+    line-height: 120%;
   }
   .description-owl{
     color: $clor-gray-bold;
-    line-height: 100%;
+    line-height: 120%;
   }
   .btn-view-more{
     color: white;
     background-color: $color-light-blue;
-    line-height: 100%;
+    line-height: 120%;
   }
 }
 .slider-blue-light{
   .title-owl{
     color: $color-light-blue;
-    line-height: 100%;
+    line-height: 120%;
   }
   .description-owl{
     color: $clor-gray-bold;
-    line-height: 100%;
+    line-height: 120%;
   }
   .btn-view-more{
     color: white;
     background-color: $color-light-blue;
-    line-height: 100%;
+    line-height: 120%;
   }
 }
 .border-top-line{

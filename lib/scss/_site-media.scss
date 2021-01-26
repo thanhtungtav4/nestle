@@ -55,6 +55,9 @@
     .btn-seach-nt{
       margin-left: 0.8rem;
     }
+    .col-md-4:nth-of-type(1n+7) {
+        display: none;
+    }
   }
   .modal-pink{
     .start-pop{
