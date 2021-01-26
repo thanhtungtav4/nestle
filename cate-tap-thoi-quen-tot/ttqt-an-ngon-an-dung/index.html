@@ -446,7 +446,7 @@
   </section>
   <!-- tab mobile -->
   <section class="section-nutri-health section-nutri-health-custome section-nutri-health-mobile d-md-none d-block">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row mx-auto text-center">
         <div class="slider2 owl-carousel owl-theme">
           <a href="#zero" class="item" data-hash="zero">
@@ -464,57 +464,35 @@
         </div>
         <div class="slider1 owl-carousel owl-theme">
           <div class="item item1" data-hash="zero">
-            <div class="box-border ">
+            <div class="box-border-inline">
               <h3 class="text-nutri-title mt-2 mb-0">
-                Ăn NGON Ăn Đúng
+               <span>Ăn NGON Ăn Đúng</span>
               </h3>
               <div class="img-box-nutri">
-                <img src="../../lib/images/lap-ghep-mon-an.png" class="img-fluid" />
-                <p class="text-nutri-description p-3">LẮP GHÉP MÓN ĂN VÀ KHẨU PHẨN</p>
+                <div class="row">
+                  <div class="col-12">
+                    <p class="text-nutri-des">Khuyến khích trẻ ăn uống cân bằng, đa dạng các nhóm thực phẩm khác nhau để bổ sung đủ dinh dưỡng mỗi ngày.
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-center bd-highlight">
+                  <div class="p-2 bd-highlight">
+                    <img src="../../lib/images/mobile-trans.png" style="background-image: url(../../lib/images/list-1.png);" alt="" class="img-fluid img-fluid-bg-trans">
+                  </div>
+                  <div class="p-2 bd-highlight">
+                    <div class="category-tag"><a class="category-name color-pink-bg" href="#">KIẾN THỨC HAY</a></div>
+                    <a href="#">
+                      <h4 class="text-tab-title-h4 title-h4 pt-3 pl-2">TÌM HIỂU VỀ THÁP
+                        DINH DƯỠNG
+                      </h4>
+                    </a>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
-<!--          <div class="item item2" data-hash="one">-->
-<!--            <div class="box-nutri">-->
-<!--              <div class="box-border">-->
-<!--                <h3 class="text-nutri-title mt-2 mb-0">-->
-<!--                  Uống đủ nước-->
-<!--                </h3>-->
-<!--                <div class="img-box-nutri">-->
-<!--                  <img src="../../lib/images/lap-ghep-mon-an.png" class="img-fluid" />-->
-<!--                  <p class="text-nutri-description p-3">LẮP GHÉP MÓN ĂN VÀ KHẨU PHẨN</p>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--          <div class="item item3" data-hash="two">-->
-<!--            <div class="box-nutri ">-->
-<!--              <div class="box-border">-->
-<!--                <h3 class="text-nutri-title mt-2 mb-0">-->
-<!--                  Ăn NGON Ăn Đúng-->
-<!--                </h3>-->
-<!--                <div class="img-box-nutri">-->
-<!--                  <img src="../../lib/images/lap-ghep-mon-an.png" class="img-fluid" />-->
-<!--                  <p class="text-nutri-description p-3">LẮP GHÉP MÓN ĂN VÀ KHẨU PHẨN</p>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--          <div class="item item4" data-hash="tree">-->
-<!--            <div class="box-nutri">-->
-<!--              <div class="box-border ">-->
-<!--                <h3 class="text-nutri-title mt-2 mb-0">-->
-<!--                  DUY TRÌ BỮA ĂN GIA ĐÌNH-->
-<!--                </h3>-->
-<!--                <div class="img-box-nutri">-->
-<!--                  <img src="../../lib/images/lap-ghep-mon-an.png" class="img-fluid" />-->
-<!--                  <p class="text-nutri-description p-3">LẮP GHÉP MÓN ĂN VÀ KHẨU PHẨN</p>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
         </div>
-
       </div>
     </div>
   </section>
@@ -560,7 +538,7 @@
 </div>
 <!-- Footer -->
 <footer class="section-footer py-2">
-  <div class="container-fluid">
+  <div class="container-fluid pl-0 pr-0">
     <div class="row d-md-none d-block">
       <div class="col-12">
         <div class="d-flex justify-content-end bd-highlight align-items-center m-2">
@@ -644,14 +622,15 @@
 <script>
   $('.slider1').owlCarousel({
     loop:true,
-    margin:10,
     items:1,
     URLhashListener:true,
-    dots:true
+    dots:true,
+    padding:0,
+    stagePadding: 0,
+    singleItem:true,
   })
   $('.slider2').owlCarousel({
     loop:true,
-    margin:10,
     center: true,
     nav:false,
     items:2,

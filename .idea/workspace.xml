@@ -4,6 +4,7 @@
     <list default="true" id="15c05553-5dcb-4a98-bef3-bb08713bb628" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cate-tap-thoi-quen-tot/ttqt-an-ngon-an-dung/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cate-tap-thoi-quen-tot/ttqt-an-ngon-an-dung/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/scss/_site-media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/_site-media.scss" afterDir="false" />
     </list>
@@ -92,6 +93,7 @@
       <workItem from="1611191864662" duration="20081000" />
       <workItem from="1611281764278" duration="19801000" />
       <workItem from="1611538964915" duration="18347000" />
+      <workItem from="1611645064451" duration="4061000" />
     </task>
     <task id="LOCAL-00097" summary="init home page">
       <created>1610445618023</created>
@@ -476,10 +478,11 @@
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2012" y="92" width="1496" height="826" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609991449652" />
-    <state x="2465" y="238" width="589" height="534" key="find.popup" timestamp="1609834301001">
-      <screen x="1920" y="0" width="1680" height="1010" />
+    <state x="415" y="146" width="557" height="534" key="find.popup" timestamp="1611648378941">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="2465" y="238" width="589" height="534" key="find.popup/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1609834301001" />
+    <state x="415" y="146" width="557" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1611648378941" />
     <state x="2536" y="406" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1609985098093">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
