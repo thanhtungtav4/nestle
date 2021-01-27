@@ -330,7 +330,7 @@
         font-weight: 600;
         text-decoration: underline;
         @include RobotoRegular;
-        color: $color-light-blue;
+        color: #0075ed;
         @include media-breakpoint-down(xs) {
           font-size: 0.8rem;
         }
@@ -431,6 +431,8 @@
     padding: 4px 15px;
     color: white;
     border-radius: 20px;
+    text-transform: uppercase;
+    padding-top: 9px;
   }
   .text-tab-title-h4{
     font-size: 1.5rem;
