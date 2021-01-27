@@ -12,11 +12,41 @@
   .w-md-75{
     max-width: 75%;
   }
+  .section-header{
+    .container{
+      border-bottom: 1.4px solid #c2c2c2;
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 0.8rem;
+    }
+  }
+  .navbar-expand-lg{
+    .container{
+      padding-left: 0;
+      padding-right: 0;
+      .position-relative-nt{
+        padding-right: 0;
+      }
+    }
+  }
+  .nt-seach-form{
+      .form-control-feedback{
+        right: 11px;
+      }
+  }
 
 }
 // Extra large devices (large desktops, 1200px and up)
 @include media-breakpoint-up(xl) {
-
+  #main_nav1{
+    .navbar-nav{
+      .nav-item{
+        .nav-link{
+          padding-right: 2.2rem;
+        }
+      }
+    }
+  }
 }
 //************************************************
 @media (max-width: 420px) {

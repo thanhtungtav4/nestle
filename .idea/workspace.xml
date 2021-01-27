@@ -5,7 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scss/_site-base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/_site-base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/_site-blocks.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scss/_site-media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/_site-media.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +94,7 @@
       <workItem from="1611281764278" duration="19801000" />
       <workItem from="1611538964915" duration="18347000" />
       <workItem from="1611645064451" duration="12718000" />
+      <workItem from="1611711877086" duration="1334000" />
     </task>
     <task id="LOCAL-00108" summary="init home page">
       <created>1610954153223</created>

@@ -31,7 +31,7 @@
 }
 //nav bar custome by tungnt
 .search-type-nt{
-  border: 1px solid $color-light-green;
+  border: 1.4px solid $color-light-green;
   @include customer-hight-seach;
   border-radius: 12px;
   line-height: 100%;
@@ -112,8 +112,8 @@
   }
   }
 .border-left-right-logo{
-  border-left: 2px solid $color-violet;
-  border-right: 2px solid $color-violet;
+  border-left: 2px solid $color-violet-light;
+  border-right: 2px solid $color-violet-light;
 }
 .slider-base-box{
    .description-owl{
