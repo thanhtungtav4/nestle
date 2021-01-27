@@ -581,7 +581,7 @@
     border-radius: 20px;
     font-size: 1.7rem;
   }
-  p{
+  p, .ul-p{
     color: $color-gray;
     @include RobotoRegular;
   }
@@ -591,6 +591,7 @@
       padding-bottom: 1.1rem;
       color: $color-gray;
       @include RobotoRegular;
+
     }
     li:before{
       background-color: $color-blue;
@@ -604,6 +605,7 @@
       font-weight: 600;
       font-family: Roboto;
       line-height: 100%;
+      margin-left: -47px;
     }
     li:nth-child(1):before{
       content: '1';
@@ -634,6 +636,13 @@
     }
     li:nth-child(10):before{
       content: '10';
+    }
+  }
+  .bg-transparent-ul-list{
+    li:nth-child(1):before{
+      background-color: transparent;
+      content: '1';
+      color: $color-dark-gray-light;
     }
   }
   .border-left-line{
@@ -812,6 +821,7 @@
     line-height: 150%;
     vertical-align: middle;
     display: inline;
+    margin-left: -40px;
   }
 }
 .cssheight{
