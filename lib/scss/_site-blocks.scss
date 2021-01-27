@@ -569,7 +569,7 @@
         .card-text{
           @include RobotoRegular;
           font-weight: 500;
-          @include color-gray;
+          color: $clor-gray-bold;
         }
       }
     }
