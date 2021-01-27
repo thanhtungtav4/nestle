@@ -435,10 +435,11 @@
     padding-top: 9px;
   }
   .text-tab-title-h4{
-    font-size: 1.5rem;
-    @include Roboto;
-    color: $clor-gray-bold;
-    width: 60%;
+    font-size: 1.6rem;
+    @include RobotoRegular;
+    color: #717171;
+    width: 80%;
+    font-weight: 500;
   }
   .name-tab-show{
     @include SizeH3;
@@ -447,13 +448,13 @@
     text-align: center;
   }
   .description-tab-show{
-    @include Roboto;
-    font-weight: 600;
+    @include RobotoRegular;
+    font-weight: 500;
     font-size: 1.2rem;
     justify-content: center;
     color: $color-gray;
     margin: 0 auto;
-    text-align: justify;
+    text-align: center;
   }
   .btn-next-view{
     @include ArialUnicodeMs;
