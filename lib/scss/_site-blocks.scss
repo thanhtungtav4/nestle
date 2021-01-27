@@ -1087,6 +1087,7 @@ body.offcanvas-active{
   transform: rotate(180deg);
   display: inline-block;
 }
+
 .section-answer-the-question{
   .ul-li-customer{
     margin: 0 auto;
@@ -1206,6 +1207,10 @@ body.offcanvas-active{
 }
 .border-top-left-radius-owl{
   border-top-left-radius: 20px;
+  .bg-home-left{
+    left: 0;
+    bottom: 0;
+  }
   .owl-item {
     .item{
       background-color: white;
