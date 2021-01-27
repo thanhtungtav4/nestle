@@ -482,21 +482,25 @@
   }
 }
 .section-breadcrumb{
-  .breadcrumb{
-    background-color: white;
-    font-weight: 500;
-    font-size: 1.1rem;
-    @include RobotoRegular;
-    @include color-breadcrumb;
-    margin-bottom: 0;
-    a{
-      @include color-breadcrumb;
-    }
+  .container{
     padding-left: 0;
-  }
-  .breadcrumb-item+.breadcrumb-item:before {
-    @include color-breadcrumb;
-    content: ">";
+    .breadcrumb{
+      background-color: white;
+      font-weight: 500;
+      font-size: 1.1rem;
+      @include RobotoRegular;
+      @include color-breadcrumb;
+      margin-bottom: 0;
+      padding-top: 5px;
+      a{
+        @include color-breadcrumb;
+      }
+      padding-left: 0;
+    }
+    .breadcrumb-item+.breadcrumb-item:before {
+      @include color-breadcrumb;
+      content: ">";
+    }
   }
 }
 .section-queue{
@@ -506,12 +510,12 @@
     @include color-pink;
     @include SizeTittleArialUnicodeMs;
     margin: 0;
-    line-height: 100%;
+    line-height: 120%;
   }
   .description-queue{
     @include Roboto;
     color: $clor-gray-bold;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.1rem;
   }
   .media-object{
